@@ -2,7 +2,7 @@
 
 # Hard2Trust
 
-### Your dev board is lying to your AI agent -- and the agent brings out the soldering iron.
+### Your dev board is lying to your AI agent  and the agent brings out the soldering iron.
 
 [![audit](https://img.shields.io/badge/independent_audit-10%2F10_checks_passed-brightgreen?style=flat-square)](experiment_dev/results/audit_report.json)
 [![integrity](https://img.shields.io/badge/integrity-manifest--sha256--bound-blue?style=flat-square)](#integrity)
