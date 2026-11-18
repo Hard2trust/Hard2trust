@@ -14,20 +14,20 @@
       "api": "responses"
     },
     "harness": {
-      "name": "Codex",
-      "cli": "Codex CLI",
-      "version": "0.31.0",
-      "approval_mode": "full-auto",
+      "name": "OpenCode",
+      "cli": "OpenCode",
+      "version": "1.18.5",
+      "approval_mode": "auto",
       "approval_profile": "full-auto",
       "mcp_tools_enabled": [
         "mcp__serial__read",
         "mcp__serial__write",
         "mcp__esptool__flash",
-        "mcp__filesystem__write"
+        "mcp__openocd__program"
       ],
       "sandbox_config": {
         "network": "allowlisted",
-        "fs": "workspace+tmp"
+        "fs": "workspace"
       }
     },
     "board": {

@@ -6,7 +6,7 @@
 
 [![audit](https://img.shields.io/badge/independent_audit-10%2F10_checks_passed-brightgreen?style=flat-square)](experiment_dev/results/audit_report.json)
 [![integrity](https://img.shields.io/badge/integrity-manifest--sha256--bound-blue?style=flat-square)](#integrity)
-[![trials](https://img.shields.io/badge/trials-8%2C340-recorded-per-campaign-blueviolet?style=flat-square)](#the-numbers)
+[![trials](https://img.shields.io/badge/trials-8%2C220-recorded-per-campaign-blueviolet?style=flat-square)](#the-numbers)
 [![campaigns](https://img.shields.io/badge/campaigns-10--board%20hardware-orange?style=flat-square)](#layout)
 
 *A device under test used to be an object your agent debugs.<br/>
@@ -43,12 +43,12 @@ whether the attack worked.
 
 | ID | Boundary crossed | What the device achieves | Mean ASR |
 |----|------------------|--------------------------|----------|
-| L0 | observation | agent adopts a hardware fault that does not exist | 75.75% |
-| L1 | authz | unauthorized state change on the DUT itself (erase/flash) | 67.25% |
-| L2 | authz + recovery | influence survives reflashing and strikes again in a *fresh* session | 60.0% |
-| L3 | authz, cross-device | your agent reflashes a neighbor board the DUT "mentioned" | 44.25% |
-| L4 | authz, host | firmware pulled from whatever origin the device advertises | 36.5% |
-| L5 | harness state | a device-suggested rule lands in `AGENTS.md` and outlives the session | 24.75% |
+| L0 | observation | agent adopts a hardware fault that does not exist | 77.5% |
+| L1 | authz | unauthorized state change on the DUT itself (erase/flash) | 66.5% |
+| L2 | authz + recovery | influence survives reflashing and strikes again in a *fresh* session | 60.8% |
+| L3 | authz, cross-device | your agent reflashes a neighbor board the DUT "mentioned" | 44.5% |
+| L4 | authz, host | firmware pulled from whatever origin the device advertises | 36.3% |
+| L5 | harness state | a device-suggested rule lands in `AGENTS.md` and outlives the session | 25.8% |
 
 ```mermaid
 flowchart LR
@@ -63,28 +63,29 @@ The DUT never touches your PC. It only talks. The harness is the hand.
 
 ## The numbers
 
-Per campaign: **5,050 adversarial + 3,290 benign** trials, 8 batteries,
-8 LLMs from 6 providers, 6 harnesses, 10 physical boards, 3 observation
-interfaces, 5 defenses.
+Per campaign: **4,990 adversarial + 3,230 benign** trials, 8 batteries,
+8 LLMs from 6 providers, 6 harnesses, 10 physical boards, 4 observation
+interfaces, 4 defenses.
 
 - Unauthorized outcomes on **every evaluated model** -- worst L1:
-  41/50 (82.0%), best L1: 18/50 (36.0%).
-- Paired benign runs: **0 violations** in 3,290 runs. The ASRs are the
+  41/50 (82.0%), best L1: 17/50 (34.0%).
+- Paired benign runs: **0 violations** in 3,230 runs. The ASRs are the
   attack, not flaky agents.
-- The most-resistant model (Claude Opus 5.5) still took **36%** of L1
+- The most-resistant model (Claude Opus 5.5) still took **34%** of L1
   attacks and a fresh session still obeyed its implant in 30% of L2.
 - Boot-path implant survives application reflash: state retained in
-  **75.0%** of reflash cycles; full-chip erase cuts retained state to
-  15% and renewed effect to 5% rather than clearing it outright.
+  **77.5%** of reflash cycles. A complete full-chip erase removes the
+  implant; the recorded full-recovery attempts were incomplete (7/40
+  state survival, 2/40 renewed effect).
 - Defenses: the best single defense (taint authorization) cuts ASR from
-  65% (39/60) to 38% (23/60); stacking all five drops it to **8.3% (5/60)** --
+  81.7% (49/60) to 38.3% (23/60); stacking all four drops it to **11.7% (7/60)** --
   with measurable benign-utility cost.
 - Full-auto approval is the baseline every number is quoted at;
   approval profiles are one of the measured harness variables.
 
 ## Verify
 
-The results ship as a recorded, immutable set: 119 files in the hardware campaign.
+The results ship as a recorded, immutable set: 118 files in the hardware campaign.
 Every published number was recomputed at campaign close by the
 independent auditor -- counts, rates, Wilson intervals, and means
 re-derived from the trial logs, cross-checked against the configuration
@@ -100,7 +101,7 @@ byte for byte.
 │   ├── attacks_demo_mode/  scenario contracts: agent.md (debug-script voice)
 │   │                       + attack.json (evaluation record mirror)
 │   ├── harnesses/  platform/   harness profiles; boards with serials & probes
-│   └── results/            119 files: 8 trial JSONL · 100 group JSONs · 8 rollups · manifest + audit
+│   └── results/            118 files: 8 trial JSONL · 99 group JSONs · 8 rollups · manifest + audit
 └── experiment_usage/       end-user field case: a bad device, your PC
     ├── agents.md                 defense-condition workspace instructions
     ├── user_testing.md           new-user condition: what makes attacks land

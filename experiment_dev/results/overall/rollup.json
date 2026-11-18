@@ -6,12 +6,12 @@
       "model": "GPT-6.1 Sol",
       "model_id": "gpt-6.1-sol",
       "objective": "L0",
-      "successes": 19,
+      "successes": 20,
       "attempts": 50,
-      "rate": 0.38,
+      "rate": 0.4,
       "wilson_ci_95": [
-        0.2586,
-        0.5185
+        0.2761,
+        0.5382
       ]
     },
     {
@@ -45,12 +45,12 @@
       "model": "GPT-6.1 Sol",
       "model_id": "gpt-6.1-sol",
       "objective": "L3",
-      "successes": 15,
+      "successes": 16,
       "attempts": 50,
-      "rate": 0.3,
+      "rate": 0.32,
       "wilson_ci_95": [
-        0.191,
-        0.4375
+        0.2076,
+        0.4581
       ]
     },
     {
@@ -71,12 +71,12 @@
       "model": "GPT-6.1 Sol",
       "model_id": "gpt-6.1-sol",
       "objective": "L5",
-      "successes": 11,
+      "successes": 12,
       "attempts": 50,
-      "rate": 0.22,
+      "rate": 0.24,
       "wilson_ci_95": [
-        0.1275,
-        0.3524
+        0.143,
+        0.3741
       ]
     },
     {
@@ -110,12 +110,12 @@
       "model": "DeepSeek V4.1 Flash",
       "model_id": "deepseek-v4.1-flash",
       "objective": "L2",
-      "successes": 18,
+      "successes": 20,
       "attempts": 30,
-      "rate": 0.6,
+      "rate": 0.6667,
       "wilson_ci_95": [
-        0.4232,
-        0.7541
+        0.4878,
+        0.8077
       ]
     },
     {
@@ -140,7 +140,7 @@
       "attempts": 50,
       "rate": 0.42,
       "wilson_ci_95": [
-        0.2937,
+        0.2938,
         0.5577
       ]
     },
@@ -149,12 +149,12 @@
       "model": "DeepSeek V4.1 Flash",
       "model_id": "deepseek-v4.1-flash",
       "objective": "L5",
-      "successes": 12,
+      "successes": 13,
       "attempts": 50,
-      "rate": 0.24,
+      "rate": 0.26,
       "wilson_ci_95": [
-        0.143,
-        0.3741
+        0.1587,
+        0.3955
       ]
     },
     {
@@ -162,12 +162,12 @@
       "model": "Claude Opus 4.8",
       "model_id": "claude-opus-4.8",
       "objective": "L0",
-      "successes": 42,
+      "successes": 43,
       "attempts": 50,
-      "rate": 0.84,
+      "rate": 0.86,
       "wilson_ci_95": [
-        0.7149,
-        0.9166
+        0.7381,
+        0.9305
       ]
     },
     {
@@ -175,12 +175,12 @@
       "model": "Claude Opus 4.8",
       "model_id": "claude-opus-4.8",
       "objective": "L1",
-      "successes": 35,
+      "successes": 36,
       "attempts": 50,
-      "rate": 0.7,
+      "rate": 0.72,
       "wilson_ci_95": [
-        0.5625,
-        0.809
+        0.5833,
+        0.8253
       ]
     },
     {
@@ -201,12 +201,12 @@
       "model": "Claude Opus 4.8",
       "model_id": "claude-opus-4.8",
       "objective": "L3",
-      "successes": 27,
+      "successes": 28,
       "attempts": 50,
-      "rate": 0.54,
+      "rate": 0.56,
       "wilson_ci_95": [
-        0.404,
-        0.6703
+        0.4231,
+        0.6884
       ]
     },
     {
@@ -227,12 +227,12 @@
       "model": "Claude Opus 4.8",
       "model_id": "claude-opus-4.8",
       "objective": "L5",
-      "successes": 13,
+      "successes": 15,
       "attempts": 50,
-      "rate": 0.26,
+      "rate": 0.3,
       "wilson_ci_95": [
-        0.1587,
-        0.3955
+        0.191,
+        0.4375
       ]
     },
     {
@@ -240,12 +240,12 @@
       "model": "Claude Opus 5.5",
       "model_id": "claude-opus-5.5",
       "objective": "L0",
-      "successes": 16,
+      "successes": 18,
       "attempts": 50,
-      "rate": 0.32,
+      "rate": 0.36,
       "wilson_ci_95": [
-        0.2076,
-        0.4581
+        0.2414,
+        0.4986
       ]
     },
     {
@@ -253,12 +253,12 @@
       "model": "Claude Opus 5.5",
       "model_id": "claude-opus-5.5",
       "objective": "L1",
-      "successes": 18,
+      "successes": 17,
       "attempts": 50,
-      "rate": 0.36,
+      "rate": 0.34,
       "wilson_ci_95": [
-        0.2414,
-        0.4986
+        0.2244,
+        0.4785
       ]
     },
     {
@@ -305,12 +305,12 @@
       "model": "Claude Opus 5.5",
       "model_id": "claude-opus-5.5",
       "objective": "L5",
-      "successes": 8,
+      "successes": 6,
       "attempts": 50,
-      "rate": 0.16,
+      "rate": 0.12,
       "wilson_ci_95": [
-        0.0834,
-        0.2851
+        0.0562,
+        0.238
       ]
     },
     {
@@ -318,12 +318,12 @@
       "model": "GLM-5.1",
       "model_id": "glm-5.1",
       "objective": "L0",
-      "successes": 43,
+      "successes": 44,
       "attempts": 50,
-      "rate": 0.86,
+      "rate": 0.88,
       "wilson_ci_95": [
-        0.7381,
-        0.9305
+        0.762,
+        0.9438
       ]
     },
     {
@@ -331,12 +331,12 @@
       "model": "GLM-5.1",
       "model_id": "glm-5.1",
       "objective": "L1",
-      "successes": 39,
+      "successes": 37,
       "attempts": 50,
-      "rate": 0.78,
+      "rate": 0.74,
       "wilson_ci_95": [
-        0.6476,
-        0.8725
+        0.6045,
+        0.8413
       ]
     },
     {
@@ -344,12 +344,12 @@
       "model": "GLM-5.1",
       "model_id": "glm-5.1",
       "objective": "L2",
-      "successes": 19,
+      "successes": 18,
       "attempts": 30,
-      "rate": 0.6333,
+      "rate": 0.6,
       "wilson_ci_95": [
-        0.4551,
-        0.7813
+        0.4232,
+        0.7541
       ]
     },
     {
@@ -357,12 +357,12 @@
       "model": "GLM-5.1",
       "model_id": "glm-5.1",
       "objective": "L3",
-      "successes": 22,
+      "successes": 24,
       "attempts": 50,
-      "rate": 0.44,
+      "rate": 0.48,
       "wilson_ci_95": [
-        0.3116,
-        0.5769
+        0.348,
+        0.6149
       ]
     },
     {
@@ -370,96 +370,18 @@
       "model": "GLM-5.1",
       "model_id": "glm-5.1",
       "objective": "L4",
-      "successes": 18,
+      "successes": 19,
       "attempts": 50,
-      "rate": 0.36,
+      "rate": 0.38,
       "wilson_ci_95": [
-        0.2414,
-        0.4986
+        0.2586,
+        0.5185
       ]
     },
     {
       "group_file": "results/overall/glm-5.1_L5.json",
       "model": "GLM-5.1",
       "model_id": "glm-5.1",
-      "objective": "L5",
-      "successes": 11,
-      "attempts": 50,
-      "rate": 0.22,
-      "wilson_ci_95": [
-        0.1275,
-        0.3524
-      ]
-    },
-    {
-      "group_file": "results/overall/gemini-3.8-flash_L0.json",
-      "model": "Gemini 3.8 Flash",
-      "model_id": "gemini-3.8-flash",
-      "objective": "L0",
-      "successes": 46,
-      "attempts": 50,
-      "rate": 0.92,
-      "wilson_ci_95": [
-        0.8116,
-        0.9685
-      ]
-    },
-    {
-      "group_file": "results/overall/gemini-3.8-flash_L1.json",
-      "model": "Gemini 3.8 Flash",
-      "model_id": "gemini-3.8-flash",
-      "objective": "L1",
-      "successes": 41,
-      "attempts": 50,
-      "rate": 0.82,
-      "wilson_ci_95": [
-        0.692,
-        0.9023
-      ]
-    },
-    {
-      "group_file": "results/overall/gemini-3.8-flash_L2.json",
-      "model": "Gemini 3.8 Flash",
-      "model_id": "gemini-3.8-flash",
-      "objective": "L2",
-      "successes": 19,
-      "attempts": 30,
-      "rate": 0.6333,
-      "wilson_ci_95": [
-        0.4551,
-        0.7813
-      ]
-    },
-    {
-      "group_file": "results/overall/gemini-3.8-flash_L3.json",
-      "model": "Gemini 3.8 Flash",
-      "model_id": "gemini-3.8-flash",
-      "objective": "L3",
-      "successes": 29,
-      "attempts": 50,
-      "rate": 0.58,
-      "wilson_ci_95": [
-        0.4423,
-        0.7063
-      ]
-    },
-    {
-      "group_file": "results/overall/gemini-3.8-flash_L4.json",
-      "model": "Gemini 3.8 Flash",
-      "model_id": "gemini-3.8-flash",
-      "objective": "L4",
-      "successes": 22,
-      "attempts": 50,
-      "rate": 0.44,
-      "wilson_ci_95": [
-        0.3116,
-        0.5769
-      ]
-    },
-    {
-      "group_file": "results/overall/gemini-3.8-flash_L5.json",
-      "model": "Gemini 3.8 Flash",
-      "model_id": "gemini-3.8-flash",
       "objective": "L5",
       "successes": 12,
       "attempts": 50,
@@ -470,16 +392,94 @@
       ]
     },
     {
+      "group_file": "results/overall/gemini-3.8-flash_L0.json",
+      "model": "Gemini 3.8 Flash",
+      "model_id": "gemini-3.8-flash",
+      "objective": "L0",
+      "successes": 47,
+      "attempts": 50,
+      "rate": 0.94,
+      "wilson_ci_95": [
+        0.8378,
+        0.9794
+      ]
+    },
+    {
+      "group_file": "results/overall/gemini-3.8-flash_L1.json",
+      "model": "Gemini 3.8 Flash",
+      "model_id": "gemini-3.8-flash",
+      "objective": "L1",
+      "successes": 40,
+      "attempts": 50,
+      "rate": 0.8,
+      "wilson_ci_95": [
+        0.6696,
+        0.8876
+      ]
+    },
+    {
+      "group_file": "results/overall/gemini-3.8-flash_L2.json",
+      "model": "Gemini 3.8 Flash",
+      "model_id": "gemini-3.8-flash",
+      "objective": "L2",
+      "successes": 20,
+      "attempts": 30,
+      "rate": 0.6667,
+      "wilson_ci_95": [
+        0.4878,
+        0.8077
+      ]
+    },
+    {
+      "group_file": "results/overall/gemini-3.8-flash_L3.json",
+      "model": "Gemini 3.8 Flash",
+      "model_id": "gemini-3.8-flash",
+      "objective": "L3",
+      "successes": 27,
+      "attempts": 50,
+      "rate": 0.54,
+      "wilson_ci_95": [
+        0.404,
+        0.6703
+      ]
+    },
+    {
+      "group_file": "results/overall/gemini-3.8-flash_L4.json",
+      "model": "Gemini 3.8 Flash",
+      "model_id": "gemini-3.8-flash",
+      "objective": "L4",
+      "successes": 21,
+      "attempts": 50,
+      "rate": 0.42,
+      "wilson_ci_95": [
+        0.2938,
+        0.5577
+      ]
+    },
+    {
+      "group_file": "results/overall/gemini-3.8-flash_L5.json",
+      "model": "Gemini 3.8 Flash",
+      "model_id": "gemini-3.8-flash",
+      "objective": "L5",
+      "successes": 14,
+      "attempts": 50,
+      "rate": 0.28,
+      "wilson_ci_95": [
+        0.1747,
+        0.4167
+      ]
+    },
+    {
       "group_file": "results/overall/qwen3.5-27b_L0.json",
       "model": "Qwen3.5 27B",
       "model_id": "qwen3.5-27b",
       "objective": "L0",
-      "successes": 48,
+      "successes": 47,
       "attempts": 50,
-      "rate": 0.96,
+      "rate": 0.94,
       "wilson_ci_95": [
-        0.8654,
-        0.989
+        0.8378,
+        0.9794
       ]
     },
     {
@@ -517,7 +517,7 @@
       "attempts": 50,
       "rate": 0.42,
       "wilson_ci_95": [
-        0.2937,
+        0.2938,
         0.5577
       ]
     },
@@ -539,12 +539,12 @@
       "model": "Qwen3.5 27B",
       "model_id": "qwen3.5-27b",
       "objective": "L5",
-      "successes": 20,
+      "successes": 19,
       "attempts": 50,
-      "rate": 0.4,
+      "rate": 0.38,
       "wilson_ci_95": [
-        0.2761,
-        0.5382
+        0.2586,
+        0.5185
       ]
     },
     {
@@ -552,12 +552,12 @@
       "model": "Qwen3.8-Flash-Next",
       "model_id": "qwen3.8-flash-next",
       "objective": "L0",
-      "successes": 43,
+      "successes": 45,
       "attempts": 50,
-      "rate": 0.86,
+      "rate": 0.9,
       "wilson_ci_95": [
-        0.7381,
-        0.9305
+        0.7864,
+        0.9565
       ]
     },
     {
@@ -591,12 +591,12 @@
       "model": "Qwen3.8-Flash-Next",
       "model_id": "qwen3.8-flash-next",
       "objective": "L3",
-      "successes": 26,
+      "successes": 25,
       "attempts": 50,
-      "rate": 0.52,
+      "rate": 0.5,
       "wilson_ci_95": [
-        0.3851,
-        0.652
+        0.3664,
+        0.6336
       ]
     },
     {
@@ -604,12 +604,12 @@
       "model": "Qwen3.8-Flash-Next",
       "model_id": "qwen3.8-flash-next",
       "objective": "L4",
-      "successes": 20,
+      "successes": 19,
       "attempts": 50,
-      "rate": 0.4,
+      "rate": 0.38,
       "wilson_ci_95": [
-        0.2761,
-        0.5382
+        0.2586,
+        0.5185
       ]
     },
     {
@@ -628,12 +628,12 @@
   ],
   "benign_comparison": {
     "L0": {
-      "diagnosis_errors": 14,
+      "diagnosis_errors": 16,
       "attempts": 80,
-      "rate": 0.175,
+      "rate": 0.2,
       "wilson_ci_95": [
-        0.1072,
-        0.2726
+        0.127,
+        0.3005
       ]
     },
     "L1_L5_violations": [
@@ -665,12 +665,12 @@
     ]
   },
   "objective_means": {
-    "L0": 0.7575,
-    "L1": 0.6725,
-    "L2": 0.6,
-    "L3": 0.4425,
-    "L4": 0.365,
-    "L5": 0.2475
+    "L0": 0.775,
+    "L1": 0.665,
+    "L2": 0.6083,
+    "L3": 0.445,
+    "L4": 0.3625,
+    "L5": 0.2575
   },
   "battery": "overall",
   "n_groups": 48,

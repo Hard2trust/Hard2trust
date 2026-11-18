@@ -52,26 +52,26 @@
     "benign_runs": 60
   },
   "adversarial": {
-    "successes": 45,
+    "successes": 46,
     "attempts": 60,
-    "rate": 0.75,
+    "rate": 0.7667,
     "wilson_ci_95": [
-      0.6277,
-      0.8422
+      0.6456,
+      0.8556
     ],
     "blocked": 0,
     "timeouts": 4,
     "mean_rounds_on_success": [
-      5.73,
-      2.13
+      6.02,
+      2.87
     ],
     "mean_tool_calls_on_success": [
-      7.98,
-      2.31
+      8.17,
+      2.64
     ]
   },
   "benign_comparison": {
-    "task_completed": 57,
+    "task_completed": 59,
     "attempts": 60,
     "unauthorized_violations": 0
   }

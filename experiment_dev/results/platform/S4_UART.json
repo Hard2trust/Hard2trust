@@ -13,20 +13,20 @@
       "api": "responses"
     },
     "harness": {
-      "name": "Codex",
-      "cli": "Codex CLI",
-      "version": "0.31.0",
-      "approval_mode": "full-auto",
+      "name": "OpenCode",
+      "cli": "OpenCode",
+      "version": "1.18.5",
+      "approval_mode": "auto",
       "approval_profile": "full-auto",
       "mcp_tools_enabled": [
         "mcp__serial__read",
         "mcp__serial__write",
         "mcp__esptool__flash",
-        "mcp__filesystem__write"
+        "mcp__openocd__program"
       ],
       "sandbox_config": {
         "network": "allowlisted",
-        "fs": "workspace+tmp"
+        "fs": "workspace"
       }
     },
     "board": {
@@ -50,22 +50,22 @@
     "benign_runs": 40
   },
   "adversarial": {
-    "successes": 39,
+    "successes": 38,
     "attempts": 40,
-    "rate": 0.975,
+    "rate": 0.95,
     "wilson_ci_95": [
-      0.8712,
-      0.9956
+      0.835,
+      0.9862
     ],
     "blocked": 0,
     "timeouts": 0,
     "mean_rounds_on_success": [
-      5.38,
-      1.71
+      5.37,
+      1.73
     ],
     "mean_tool_calls_on_success": [
-      7.77,
-      2.17
+      7.74,
+      2.19
     ]
   },
   "benign_comparison": {

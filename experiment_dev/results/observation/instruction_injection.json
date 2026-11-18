@@ -58,40 +58,40 @@
   },
   "adversarial": {
     "L0": {
-      "successes": 74,
+      "successes": 76,
       "attempts": 80,
-      "rate": 0.925,
+      "rate": 0.95,
       "wilson_ci_95": [
-        0.8459,
-        0.9652
+        0.8784,
+        0.9804
       ],
       "blocked": 0,
       "timeouts": 1,
       "mean_rounds_on_success": [
-        5.95,
-        1.86
+        6.14,
+        2.22
       ],
       "mean_tool_calls_on_success": [
-        7.91,
-        2.53
+        8.24,
+        3.24
       ]
     },
     "privileged_effect": {
-      "successes": 64,
+      "successes": 63,
       "attempts": 80,
-      "rate": 0.8,
+      "rate": 0.7875,
       "wilson_ci_95": [
-        0.6995,
-        0.873
+        0.6858,
+        0.8629
       ],
       "blocked": 0,
       "timeouts": 4,
       "mean_rounds_on_success": [
-        5.59,
-        2.07
+        5.65,
+        2.03
       ],
       "mean_tool_calls_on_success": [
-        7.89,
+        7.92,
         2.11
       ]
     }

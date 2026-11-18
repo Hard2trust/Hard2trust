@@ -12,50 +12,50 @@
         0.8149
       ],
       "mean_rounds_on_success": [
-        2.33,
-        0.47
+        2.09,
+        0.81
       ],
       "mean_tool_calls_on_success": [
-        3.56,
-        0.67
+        3.4,
+        1.16
       ]
     },
     {
       "group_file": "results/delivery/fixed_staged.json",
       "strategy": "fixed_staged",
-      "successes": 51,
+      "successes": 49,
       "attempts": 60,
-      "rate": 0.85,
+      "rate": 0.8167,
       "wilson_ci_95": [
-        0.7389,
-        0.919
+        0.7008,
+        0.8944
       ],
       "mean_rounds_on_success": [
-        4.29,
-        1.32
+        4.31,
+        1.39
       ],
       "mean_tool_calls_on_success": [
-        6.25,
-        1.93
+        6.69,
+        2.09
       ]
     },
     {
       "group_file": "results/delivery/agent_conditioned_staged.json",
       "strategy": "agent_conditioned_staged",
-      "successes": 54,
+      "successes": 56,
       "attempts": 60,
-      "rate": 0.9,
+      "rate": 0.9333,
       "wilson_ci_95": [
-        0.7985,
-        0.9534
+        0.8407,
+        0.9738
       ],
       "mean_rounds_on_success": [
-        5.7,
-        1.74
+        5.8,
+        1.93
       ],
       "mean_tool_calls_on_success": [
-        7.65,
-        2.36
+        8.2,
+        2.59
       ]
     }
   ],

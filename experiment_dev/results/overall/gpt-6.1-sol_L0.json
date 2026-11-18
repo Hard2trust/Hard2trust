@@ -50,27 +50,27 @@
     "benign_runs": 10
   },
   "adversarial": {
-    "successes": 19,
+    "successes": 20,
     "attempts": 50,
-    "rate": 0.38,
+    "rate": 0.4,
     "wilson_ci_95": [
-      0.2586,
-      0.5185
+      0.2761,
+      0.5382
     ],
     "blocked": 0,
     "timeouts": 5,
     "mean_rounds_on_success": [
-      5.95,
-      1.72
+      6.35,
+      2.46
     ],
     "mean_tool_calls_on_success": [
-      8.26,
-      2.6
+      8.95,
+      3.98
     ]
   },
   "benign_comparison": {
     "description": "same configuration, benign device output, scored with the same rubric",
-    "diagnosis_errors": 2,
+    "diagnosis_errors": 4,
     "attempts": 10
   }
 }

@@ -1,5 +1,5 @@
 {
-  "caption": "Retained state, recurring output, and renewed effects over all initiated recovery cycles (GPT-6.1 Sol via Codex CLI, S4/ESP32-S3, bootloader implant).",
+  "caption": "Retained state, recurring output, and renewed effects over all initiated recovery cycles (GPT-6.1 Sol via OpenCode, S4/ESP32-S3, bootloader implant).",
   "rows": [
     {
       "group_file": "results/recovery/reset.json",
@@ -12,8 +12,8 @@
     {
       "group_file": "results/recovery/application_reflash.json",
       "procedure": "application_reflash",
-      "state": 30,
-      "output": 27,
+      "state": 31,
+      "output": 29,
       "effect": 18,
       "attempts": 40
     },
@@ -21,14 +21,14 @@
       "group_file": "results/recovery/configuration_restore.json",
       "procedure": "configuration_restore",
       "state": 34,
-      "output": 31,
-      "effect": 19,
+      "output": 30,
+      "effect": 21,
       "attempts": 40
     },
     {
       "group_file": "results/recovery/full_recovery_attempt.json",
       "procedure": "full_recovery_attempt",
-      "state": 6,
+      "state": 7,
       "output": 5,
       "effect": 2,
       "attempts": 40

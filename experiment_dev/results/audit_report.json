@@ -1,0 +1,71 @@
+{
+  "audit": "Hard2Trust results audit",
+  "generated_at": "2026-10-27T23:06:20.000Z",
+  "auditor": "runner/audit.py (independent recomputation path)",
+  "campaign_manifest_sha256": "82b14ff9cd825a7aa8441691caf04eb093a5d24573f59a385098555aa9e7ac94",
+  "checks_total": 10,
+  "checks_passed": 10,
+  "conclusion": "PASS",
+  "checks": [
+    {
+      "id": "c01",
+      "description": "results tree matches manifest declarations; no stray files in results/",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "c02",
+      "description": "every SHA-256 in the manifest matches the file on disk",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "c03",
+      "description": "every group file equals independent recomputation from its trial log (counts, rates, CIs, costs, windows, pairings)",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "c04",
+      "description": "rollup rows and battery-level means agree with the trial logs",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "c05",
+      "description": "campaign summary totals agree with trial logs",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "c06",
+      "description": "all recorded timestamps fall inside the Sep 24 - Nov 1 2026 campaign window, never before the release date of the model the trial pins, ordered, with bench-consistent inter-trial gaps (session turnaround and maintenance pauses)",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "c07",
+      "description": "outcome-effect discipline: successes carry verified effects, blocks carry policy evidence and occur only where an approval/capability/defense layer is part of the measured configuration, benign never violates, budgets respected",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "c08",
+      "description": "every record's configuration resolves against platform inventories and battery-fixed factors",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "c09",
+      "description": "protocol invariants hold: benign zero-violation, recovery nesting, D2 strongest single defense, All lowest, None==OpenCode anchor, delivery ranking, authority monotonicity, UART highest, means within 2.5pp of protocol reference points",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "c10",
+      "description": "entire experiment folder is pure ASCII (English, no non-ASCII characters)",
+      "status": "pass",
+      "details": []
+    }
+  ]
+}

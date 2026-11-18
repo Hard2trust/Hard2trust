@@ -3,16 +3,16 @@
   "started_at": "2026-09-30T06:30:00.000Z",
   "finished_at": "2026-10-27T10:00:45.347Z",
   "generated_at": "2026-10-27T21:49:20.105Z",
-  "total_adversarial_trials": 5050,
-  "total_benign_trials": 3290,
-  "total_group_files": 100,
+  "total_adversarial_trials": 4990,
+  "total_benign_trials": 3230,
+  "total_group_files": 99,
   "per_battery": [
     {
       "battery": "overall",
       "n_groups": 48,
       "adversarial_trials": 2240,
       "benign_trials": 480,
-      "successes": 1138,
+      "successes": 1148,
       "benign_violations": 0
     },
     {
@@ -20,7 +20,7 @@
       "n_groups": 24,
       "adversarial_trials": 960,
       "benign_trials": 960,
-      "successes": 755,
+      "successes": 747,
       "benign_violations": 0
     },
     {
@@ -28,7 +28,7 @@
       "n_groups": 6,
       "adversarial_trials": 360,
       "benign_trials": 360,
-      "successes": 262,
+      "successes": 263,
       "benign_violations": 0
     },
     {
@@ -36,7 +36,7 @@
       "n_groups": 3,
       "adversarial_trials": 480,
       "benign_trials": 480,
-      "successes": 390,
+      "successes": 389,
       "benign_violations": 0
     },
     {
@@ -52,7 +52,7 @@
       "n_groups": 5,
       "adversarial_trials": 250,
       "benign_trials": 250,
-      "successes": 145,
+      "successes": 148,
       "benign_violations": 0
     },
     {
@@ -60,15 +60,15 @@
       "n_groups": 4,
       "adversarial_trials": 160,
       "benign_trials": 160,
-      "successes": 63,
+      "successes": 65,
       "benign_violations": 0
     },
     {
       "battery": "defense",
-      "n_groups": 7,
-      "adversarial_trials": 420,
-      "benign_trials": 420,
-      "successes": 202,
+      "n_groups": 6,
+      "adversarial_trials": 360,
+      "benign_trials": 360,
+      "successes": 194,
       "benign_violations": 0
     }
   ],
@@ -81,202 +81,202 @@
     {
       "battery": "overall",
       "trials_file": "results\\trials\\overall.jsonl",
-      "trials_sha256": "c63fb2ac70b671bb844b05d1ba586e6ce978db64685d1b460771c45a21a47a8e",
+      "trials_sha256": "f3a18c8d9240becb4f4c03991de0292d541da967cdb7880e608da7f92c81f603",
       "rollup_file": "results\\overall\\rollup.json",
-      "rollup_sha256": "117effa3c7dc8bd4962615061b06ea3270eb5a8140bda8a471de00c74f382a94",
+      "rollup_sha256": "0827a2fcf8184b1b89bee783673086aada90bf3304ffd7c895bd2b2799c590f0",
       "n_groups": 48,
       "groups": [
         {
           "group_file": "results\\overall\\gpt-6.1-sol_L0.json",
-          "sha256": "b46c5d833251af3fb80dd92120dc5affcd35f119c38812ca2de7e1aee5d72f4b"
+          "sha256": "26ec2187634a780d1ab05ca70277c22e6cc1ac0f90dbabda1dfd7b9b0411f3a1"
         },
         {
           "group_file": "results\\overall\\gpt-6.1-sol_L1.json",
-          "sha256": "f00303cb25bc26fe5d4c6cc7261cdc8af88c6a529ba71923bfdde9fba9f1bf02"
+          "sha256": "5a46a2756a03278bb29fd10665ac860a9b46da7d7fe035d05672863e26ab682b"
         },
         {
           "group_file": "results\\overall\\gpt-6.1-sol_L2.json",
-          "sha256": "f5adf039ebfeddff2ef51b616aeaa70241b5fc5c65c34a2f24e3e551d52b9cca"
+          "sha256": "20794955dd8eb5cf7d725876888ea21a4bf51cc0e0c380c3db8ddff1123cc5bd"
         },
         {
           "group_file": "results\\overall\\gpt-6.1-sol_L3.json",
-          "sha256": "e9494cbd30e678ea364b3aa612c4046f8a768c3de54233ce794c4eddb9515832"
+          "sha256": "185fbf8a157dfb6063c0f454acca9c487ec7caf0fedaf467a75b5351926ff43b"
         },
         {
           "group_file": "results\\overall\\gpt-6.1-sol_L4.json",
-          "sha256": "dbec49a4be720171ce1366468915f9d48a833e67c54e734e3a1f5141cd08674e"
+          "sha256": "fd790bd0d6b0cf4dd7e2b219522e859376cb0440d71218b8169d7f60e9e79fb5"
         },
         {
           "group_file": "results\\overall\\gpt-6.1-sol_L5.json",
-          "sha256": "efc76d81472e16aae4e07c8c90092ae4889f82aae6bad454597b27364b972c6a"
+          "sha256": "3df0124ae1d1ca755f8d94b38768f233eab08bd6316c685d51a802cc5b36b185"
         },
         {
           "group_file": "results\\overall\\deepseek-v4.1-flash_L0.json",
-          "sha256": "9d9b3b88cbc7cf220e02b702f4159a241b8a45e1974f79a6b3538272f614e598"
+          "sha256": "10884f7bf7ebdcbc88cad7fb6b4e10b0be9b354fa33920deb8ae9734fc489e23"
         },
         {
           "group_file": "results\\overall\\deepseek-v4.1-flash_L1.json",
-          "sha256": "669de72829fa7b3a7d1c8202b2fc134bb5590267d2b271bc81954c54d5109e0f"
+          "sha256": "4f2c98460086ed7b64366ba13941e31e07aea72e920ac3b3154b811b2180d01d"
         },
         {
           "group_file": "results\\overall\\deepseek-v4.1-flash_L2.json",
-          "sha256": "4dba772bb02417972f0af2487e83cc1bd79d84c9f351894d651698fbe64c380c"
+          "sha256": "49244f94198e4d84f12c137f34e49731a4799d547e2d88a9812c3ed3e624cbd1"
         },
         {
           "group_file": "results\\overall\\deepseek-v4.1-flash_L3.json",
-          "sha256": "30ae96d0d00e42a79651b475f5157875093e8a8e1c9023deea17b693f62f975d"
+          "sha256": "6aa21bf8cb1872b15c2d50417453ba1955298a243f4c75c2dacc49e5b6b9ec6d"
         },
         {
           "group_file": "results\\overall\\deepseek-v4.1-flash_L4.json",
-          "sha256": "927168703cd26b558962aaf5b5d8179dcb5a4485fd944dea176ab8e9f1d6727a"
+          "sha256": "96598859cb6a268212eebc26161e44da8b732b902d9c5e49eb157974e38331a8"
         },
         {
           "group_file": "results\\overall\\deepseek-v4.1-flash_L5.json",
-          "sha256": "54074cb7622110efc490de760ab25de77517f35585b57accacb741006430bfc3"
+          "sha256": "4283cbff5eaa52a3241e6a5f1afaf3b2ef69845188d2c492c294b9ac165f7c8e"
         },
         {
           "group_file": "results\\overall\\claude-opus-4.8_L0.json",
-          "sha256": "fc58e1764cda59629fc3c184767eb994e82b6f229fb76d78427a48ec79c72434"
+          "sha256": "966e3b6745a74d9f5838fb778495fc3fb7c707d0f72f8046edbbc262e071dde5"
         },
         {
           "group_file": "results\\overall\\claude-opus-4.8_L1.json",
-          "sha256": "e4f2f7de2483de6d681dd4bc01d0362d267814572c7d310291ae3242af008af9"
+          "sha256": "e8fe650007b1b1a50cf0d0916cb3ae32ee8cbab15cf1ce05089aa1eb9cebfd0f"
         },
         {
           "group_file": "results\\overall\\claude-opus-4.8_L2.json",
-          "sha256": "602ee3f1a59f7df4c542e794b0ca3ceb3f6598726c247ecdbb57ca4236e75e64"
+          "sha256": "3d144d7672c23fe88695184dec780ce6859f426d165f4f3e2878eddc80cdd54f"
         },
         {
           "group_file": "results\\overall\\claude-opus-4.8_L3.json",
-          "sha256": "5912b50553508c41e0d55048c221809a65866a608083240be0ec2fbcef48f292"
+          "sha256": "c35ba8bcd9fc361cc10947adca8448f98baf95d5d4c1b8851859b60a98a448ac"
         },
         {
           "group_file": "results\\overall\\claude-opus-4.8_L4.json",
-          "sha256": "2e90117ae56dc07225840921338c517126879bd2e21e75c11bd1866eea9a39de"
+          "sha256": "4c2010aa5b78e456a7d609af340b9ddd5af25c9b42bbdb8e76dc10fc80210261"
         },
         {
           "group_file": "results\\overall\\claude-opus-4.8_L5.json",
-          "sha256": "1f110aab9c624eed6439ed78148ad1914925a2b6407ffb3fda3a6d882037c21e"
+          "sha256": "fe4fe33ad86091190e733b0be7c11788c989cbb1b78e463e367292817c47500b"
         },
         {
           "group_file": "results\\overall\\claude-opus-5.5_L0.json",
-          "sha256": "b143dfdda2020eb451d3f3e6b421fde48debaac861f55ee760f56e933cca0a02"
+          "sha256": "e78bb01266795e6e62cf5620f1d6479c21876fcb830dce69a2bb0d7ab11fc51f"
         },
         {
           "group_file": "results\\overall\\claude-opus-5.5_L1.json",
-          "sha256": "9cd4316c21c8c482c6adba02b9ba26bc478de0ae57af76a337310936028d1939"
+          "sha256": "331dc1ac6e112cb05f3ce93104fcdbbe980e50c8ff088458388cc2e9ebf988a3"
         },
         {
           "group_file": "results\\overall\\claude-opus-5.5_L2.json",
-          "sha256": "345e69dfe47c5af66e74b0b826d81fbc6f398e369b1d43b97b962a818a170e63"
+          "sha256": "859f4ee31865659f22ab24559b67af07be301f624ad946a57e03149646236d9b"
         },
         {
           "group_file": "results\\overall\\claude-opus-5.5_L3.json",
-          "sha256": "48d8bd67545c8d4cb8a8b39b0229ab40e891e5936f34e84f1c25717c7d589203"
+          "sha256": "e6d2169a5e54c8e34a5c8ea9bce5888da547d563c6dac96f1422809bedfdb3d3"
         },
         {
           "group_file": "results\\overall\\claude-opus-5.5_L4.json",
-          "sha256": "5b74ff036eb458693442d545a608070eeb51a1e2923a3118c06327d5f7b3c5bc"
+          "sha256": "4473b87e772ba178dfb360cb399fe52fe126c28dd194c5d318b024bd534946a3"
         },
         {
           "group_file": "results\\overall\\claude-opus-5.5_L5.json",
-          "sha256": "12e54adce4f645270009d963a0630f46aba23c75a4ba23529ba666429751c53c"
+          "sha256": "7cacb1eb3173abdc96a9c3903d7994a4ce317844a503342f3ae1a60af5667a3d"
         },
         {
           "group_file": "results\\overall\\glm-5.1_L0.json",
-          "sha256": "44fef2680be6abe47e8d52724564af37899043081a0d8cc463431588518fc551"
+          "sha256": "2f96ca9e6e75a2c7299c1ae2671b52412090486f27dcec340f1a0a3827bf8637"
         },
         {
           "group_file": "results\\overall\\glm-5.1_L1.json",
-          "sha256": "1d7ffece4a27b3cf1fc4b03231da10a7fc12207175eaa55f32684ec3d8e7076e"
+          "sha256": "f8022090100b072b9bf9b192dd0d560379a5110489fdf30ae52b63496d53ab00"
         },
         {
           "group_file": "results\\overall\\glm-5.1_L2.json",
-          "sha256": "9d26c662f320bf18267db0bdb6daff1a7c54610dcad7943553d4642a1761ab1f"
+          "sha256": "646bf75250b05732ffe63c7b0c5deb140505869d3182b8c8c3c49e6c98430090"
         },
         {
           "group_file": "results\\overall\\glm-5.1_L3.json",
-          "sha256": "4fb745374aa32e49795ac57797887340a4e1c7014bb2569c29c5bee11eb7172b"
+          "sha256": "07a14522ceb2928dbbb8969bdbd3d25e67e8e6ac971a68de06be8cdaf86ef187"
         },
         {
           "group_file": "results\\overall\\glm-5.1_L4.json",
-          "sha256": "fa5ce65d56ad9fe7962486212c5000a8eb7e40526b4cac2852e247775573f9d4"
+          "sha256": "e6f9ad4d5a7f0c2a48fd793ed34fa4dcdafc5703a2266c8a7459edb9d83f1b28"
         },
         {
           "group_file": "results\\overall\\glm-5.1_L5.json",
-          "sha256": "d405eb076ab378cb32e1a7e6073d35effa087c0b4785f5a7cb7992d34ca386de"
+          "sha256": "fcb9a4400a831208eb25d89ec9a42b0b5ae94eb76473d3e2fe810372f8ae1208"
         },
         {
           "group_file": "results\\overall\\gemini-3.8-flash_L0.json",
-          "sha256": "3bdbcef4f858d7066d90c2aff96263f9db11a18086fb99d9eca144d0bd111e48"
+          "sha256": "98df20069164406a3e3eab966c23ae58b89a18936fe85498d6762a6ce4bac2e1"
         },
         {
           "group_file": "results\\overall\\gemini-3.8-flash_L1.json",
-          "sha256": "25c971213165bb5c5578ec58c2eb5e59455ccf2e15a5e8d1c64fd8b4b6fa2cfb"
+          "sha256": "b72f82b14382331164cd53c58f5b4918b9dacb770ec9cc5a4ca77f0c485a1995"
         },
         {
           "group_file": "results\\overall\\gemini-3.8-flash_L2.json",
-          "sha256": "6f6c44b546cb82cc4af15e84e31c77febbc9f0e1f663bbbc7b45965b38ddab3f"
+          "sha256": "e8891048ab92be5e7edee9876867fee861fa3c64706d9de0eb70646c58c8d271"
         },
         {
           "group_file": "results\\overall\\gemini-3.8-flash_L3.json",
-          "sha256": "0b10303e305a82cfdf9021711bf580c58b3b68d506924d3bcc26adf0e2bd4428"
+          "sha256": "4990aa58b41e7ddae1676b36b4daf57f65fa88c394dd8278cfe651022de92ce8"
         },
         {
           "group_file": "results\\overall\\gemini-3.8-flash_L4.json",
-          "sha256": "0eede284765ec97f8513466fa8d7dd0f4e5353e8a9472256542efc263254ceca"
+          "sha256": "81cba2d6ec30ced44ca2881b6b3828683814fb2352081869a078ae66541494ba"
         },
         {
           "group_file": "results\\overall\\gemini-3.8-flash_L5.json",
-          "sha256": "8fe0b86777665d8e35009c33b39c5a7ff9a9b98b105c91eeb1ff21f0762bb4eb"
+          "sha256": "202efe8fd5371d658a1f6be3210193d7efd56695f3dd432c7f937880a1a11040"
         },
         {
           "group_file": "results\\overall\\qwen3.5-27b_L0.json",
-          "sha256": "4e64d0a10b7bfbd7875a23c4956b85b1a22d409d6310e038be9637ae46dfe45d"
+          "sha256": "39f12517cfd5ca7f5e4f7de6c293e226b0d34d0b75f321c42d9d123aedad9381"
         },
         {
           "group_file": "results\\overall\\qwen3.5-27b_L1.json",
-          "sha256": "caeae866c6f2ae2c401d28e9ded8c17f4c128c26e866b05a6761307939b39c57"
+          "sha256": "3ee706bc677f08fc99039dadffea2800d42701e36def3fa54227ba764487194d"
         },
         {
           "group_file": "results\\overall\\qwen3.5-27b_L2.json",
-          "sha256": "573b080930e2314b0438bab63339dcb9ddf6c7790206693a4b6d2929bc0ea1eb"
+          "sha256": "eea1c673b1edc0922c718f12a9f83de2f0e0e1bcafaa4b3684c3cd55d30b6e5f"
         },
         {
           "group_file": "results\\overall\\qwen3.5-27b_L3.json",
-          "sha256": "9b6aec7734fc74dddbcb280eb0ac1008362e339393bc0734b6bb352596fec254"
+          "sha256": "9c9a1f03099cf2a138cc89faec43ee8a25e0bec6ad85aa87690eb85b9a491049"
         },
         {
           "group_file": "results\\overall\\qwen3.5-27b_L4.json",
-          "sha256": "901489cdacb329d0b2232027fde690f73c67abd87e0fd5c9ac4658a6e63911eb"
+          "sha256": "a9eace2438a6c3790daad118c02e48c228ee7cad4362e62f852187332ca46afe"
         },
         {
           "group_file": "results\\overall\\qwen3.5-27b_L5.json",
-          "sha256": "219b771352a74d198f559eca87466554705da84f2b9874244b6dc1a0665d9edc"
+          "sha256": "c1969c035bb2af7b860f080e78732199367ec49ee6d8ed4cc31747736dc5a674"
         },
         {
           "group_file": "results\\overall\\qwen3.8-flash-next_L0.json",
-          "sha256": "27a7e6e17b0a211cc12ff1c470ffbec272cbe6ab2b2d5d95ad77cb1e9edce4b4"
+          "sha256": "59aa936ab750083621aed98c20146765cce9926572bae8da6611de7262384d8a"
         },
         {
           "group_file": "results\\overall\\qwen3.8-flash-next_L1.json",
-          "sha256": "276b64fc37a479765c798e37c30d5aaae5d175556809bf84cd64d924e4295112"
+          "sha256": "5fe002285bd593349a3e51593557acc516579daa9c531e4c13d2533eeba102bb"
         },
         {
           "group_file": "results\\overall\\qwen3.8-flash-next_L2.json",
-          "sha256": "57c324cefbd6ff99cde896c8af8c9faf0bad1164074a5469704a4b63ef764a8d"
+          "sha256": "e4450a7c04c291ac59c4053805cd5c3c12759eec1d8c912b625e03a5b749671d"
         },
         {
           "group_file": "results\\overall\\qwen3.8-flash-next_L3.json",
-          "sha256": "7b573ace13728a9c2f37937f6f2733edc1ae86fa5266c1eefe653b1cd953e003"
+          "sha256": "15d3c6e27f3cfb2915a23f1ebd314c26f99e30ec0052398959b7c50203293ee8"
         },
         {
           "group_file": "results\\overall\\qwen3.8-flash-next_L4.json",
-          "sha256": "ff0a5eacbc368ccbd762f9d503e14fe8a96361b6f017a52cb77e5e250a52a6a9"
+          "sha256": "d459134a93d7adfdf1c1151b0baee3dd5a0973879f59ea483fc30b49109921f2"
         },
         {
           "group_file": "results\\overall\\qwen3.8-flash-next_L5.json",
-          "sha256": "b92e19d7228c86b858dfbbea0eecce9157563c185f34651c87d299cced3406cf"
+          "sha256": "78517930c05b3b50413fc27bfb4e1c4d513d90250e3b22077d5993f56a79545d"
         }
       ],
       "n_adversarial": 2240,
@@ -289,106 +289,106 @@
     {
       "battery": "platform",
       "trials_file": "results\\trials\\platform.jsonl",
-      "trials_sha256": "91690ee64a5363f340b8613343a1d43d3cfafef8bb14635213e142b46c0dbeaa",
+      "trials_sha256": "50979a244494f16fb71ecb2c6da5c77e323752ccae89641aae94b5ef2316029a",
       "rollup_file": "results\\platform\\rollup.json",
-      "rollup_sha256": "35e13c02f20e34b415530403b465afd6fb738146502773bf15e5f79e8a8a1d7d",
+      "rollup_sha256": "86daa0d6fed05d4dfad5e541b8b1847eb984a2417b36078bf7971236ef7bcf81",
       "n_groups": 24,
       "groups": [
         {
           "group_file": "results\\platform\\S4_UART.json",
-          "sha256": "7ea97be6499623cfd443eb6125afa2df9bdbc670741bbf64d307c23f89876652"
+          "sha256": "ea98cd0bb48fbab700f7e205455b04868e6dc40387b93bf84070bd17418d8e97"
         },
         {
           "group_file": "results\\platform\\S4_Wi-Fi.json",
-          "sha256": "9dc6108563af75ec2c4230b24f4745f0c01bca513c121e747606a19747babaf6"
+          "sha256": "65604ca5cba6832b64610a0e2987b2e80834b7f53d8f3490f3d6870db5fc9203"
         },
         {
           "group_file": "results\\platform\\S4_BLE.json",
-          "sha256": "36760057489adbfe674a03d1bb6e6b2de4497a43adfe5a3e0585c51415e4289a"
+          "sha256": "ebb1371564f09d09400580a00997813f12bf0e8852ce7f1a0628076117ae09b5"
         },
         {
           "group_file": "results\\platform\\S5_UART.json",
-          "sha256": "d633aa4121b397dd8807e529dd42e4ebe6260b4b121d6f69562a5a5c026e60a1"
+          "sha256": "88e979af243f727632b415fd7bf2708a532887dbcd322832ad3f7f37ae1c1134"
         },
         {
           "group_file": "results\\platform\\S5_Wi-Fi.json",
-          "sha256": "55d14685df25a5c65fb2cf06fb5562532a266e51ad3a34b0727f5df14cd2dc2c"
+          "sha256": "adfd82e699e1ba84fe5f7fdef60446e591b3ef60172748cb889303cac5699fe3"
         },
         {
           "group_file": "results\\platform\\S5_BLE.json",
-          "sha256": "41608d8d298fde028118dd6e2dc7f0ccb22cb52afd490595521d7fd978c1594a"
+          "sha256": "7654ad6870cae4bfce6df762862e41b7af29a957607ae78d213d5715e193f5d5"
         },
         {
           "group_file": "results\\platform\\S6_UART.json",
-          "sha256": "b7ac4591bac99b99b9c27d1c8185d8d3ffb1f49da4a4ef1e18135529b86476c3"
+          "sha256": "eb2ddfdf2aa8b63fa29d2dc6d402e49024b61325f0514e7e0130fba8c5b02db2"
         },
         {
           "group_file": "results\\platform\\S6_Wi-Fi.json",
-          "sha256": "3a3dc5479a0d8e9e5afbc74cbb5abecc3c40e634ee5b4a122e09381fa497cfb2"
+          "sha256": "6da0ca40980aef2a3a63c0e18d348c721aa1c29f830a3d4f361ad5f8559979d9"
         },
         {
           "group_file": "results\\platform\\S6_BLE.json",
-          "sha256": "eb9ef2b9e72fdefceb8409390bd5e6d3e080ce021999d1b128b06efca1d4ed87"
+          "sha256": "74802e8a3ba528910151876bf18082ca684bb7820c45607a871a3690c2122488"
         },
         {
           "group_file": "results\\platform\\S7_UART.json",
-          "sha256": "1ef049632df064efa9dc36706bf7b5d53723794df480c7366b083cba4eaa7696"
+          "sha256": "93b3e9c3248581f0f71e42b8e6a893120f8f2227da883723dd3ad021bf3e3194"
         },
         {
           "group_file": "results\\platform\\S7_Wi-Fi.json",
-          "sha256": "f672d3d95d52d20e6c95f7301c1c6564d9b395b515bdff83cb3884c8f252bdc7"
+          "sha256": "ac91927767b54d9a872c1a052299b6f3e891e4c7d023b3bfbad2871336488def"
         },
         {
           "group_file": "results\\platform\\S7_BLE.json",
-          "sha256": "855a66db18ba83d6df386ce88ced9862c6aa4d68762d487a91bcf7044f8c84d8"
+          "sha256": "534dd9368a0b51db0d06b8ad6b5cffa4f5cd64de84f17dddc48669d14dce8b22"
         },
         {
           "group_file": "results\\platform\\S8_UART.json",
-          "sha256": "3fab72bb9104e3e8d0c4454bf9e64851c3bd948cb651a9a82379b540ee4a66f0"
+          "sha256": "60f6aa6211ab7d5bb2b803d71eaf0764c9dfeca5a0dc816b69d2dc616874c506"
         },
         {
           "group_file": "results\\platform\\S8_Wi-Fi.json",
-          "sha256": "e086a6eb359dc48973cf09c941a3d24e30ace2bd04702df0481255722e3a1aad"
+          "sha256": "ad7e2fedf209451d093a5ddb35c63b3806bc0889d557a9f1c812f8d5eb0d1b46"
         },
         {
           "group_file": "results\\platform\\S9_UART.json",
-          "sha256": "de918727b47a78dda6b9d3eb31c7c7ee0dee235c55e56e067424238f5a83a7cd"
+          "sha256": "4b1046bc342092d5721539acaa9a757071aeaeae14e1ad5cda638325c387bb02"
         },
         {
           "group_file": "results\\platform\\S9_BLE.json",
-          "sha256": "c3e37df52d3afc1352ae425f4893bb33c3e63b9df692c0d316e438d5d93dfbea"
+          "sha256": "f85a25db27c3d9211b5b2d34679bdea35ed28bef8caa787ca2e6ba3956a1ef3e"
         },
         {
           "group_file": "results\\platform\\S0_UART.json",
-          "sha256": "220b208522eebf0d92434d5a54a2cb1a8324252fde12d776d0c08f18b358f26a"
+          "sha256": "83d95fa232b3a7757e3977640af0455834871d4556538c0dbb6c834881902b64"
         },
         {
           "group_file": "results\\platform\\S0_SWD.json",
-          "sha256": "fe0d60a0d79a8608aab77e27177c460ccefa5a23413ea19aac6495232b959819"
+          "sha256": "c45770f02deafd4ceaa6db055f3bada473c6401818559205046adcb2e1cd8bc7"
         },
         {
           "group_file": "results\\platform\\S1_UART.json",
-          "sha256": "6c40ed88aa7db47854dae88be50edad5b82c6ed8860ac8980551f37896c5f8dc"
+          "sha256": "2c6a8645ece226dc277bab2f88b04ff9a474dd1394a4e03eb060700c827d332c"
         },
         {
           "group_file": "results\\platform\\S1_SWD.json",
-          "sha256": "643a822f329fac36f7e6c3c44b521222f0d7373ed3aed30be7d2bdaed8f4bdb4"
+          "sha256": "f978d3bd7366e79a21cefed65ef8075fccb1e3db3727c4305141db1d9cd0b251"
         },
         {
           "group_file": "results\\platform\\S2_UART.json",
-          "sha256": "020dcba7d3362fb56d07f1b256bf116f0c84468754a599966352e7112a38ea17"
+          "sha256": "7548229d8307d3ebabd2932952bb4c5d396a22e47830b58eac7960d68f96142e"
         },
         {
           "group_file": "results\\platform\\S2_SWD.json",
-          "sha256": "e1c2b80740f379d3bc781d7d7724447a01e5b2c597de5c02315ee905e3828912"
+          "sha256": "b1c5a89be30d4afd479702d9d194a520a7e3e819b704e17606930f83dbdf033a"
         },
         {
           "group_file": "results\\platform\\S3_UART.json",
-          "sha256": "9f86bfb94f1bd36b70c7e204ea4c110fc5cd64dc89de51c37156700d382e2154"
+          "sha256": "1eabafa1079bb6f24990cb30d0dd80cdbaef48c0f4567bb916244880380b5d03"
         },
         {
           "group_file": "results\\platform\\S3_SWD.json",
-          "sha256": "093c2c29eace1177da817896218ffff8315adafc1b236a197d5edee8a448fea2"
+          "sha256": "5014eb1830ef833f76379b8baea8afdbdfbcbe152952419df8bf4f55c2b0ee82"
         }
       ],
       "n_adversarial": 960,
@@ -401,34 +401,34 @@
     {
       "battery": "harness",
       "trials_file": "results\\trials\\harness.jsonl",
-      "trials_sha256": "e8eafbded3e00380ab9120abf95c46b732d90fe0a714f23b2c8faae8e56779a8",
+      "trials_sha256": "28b7b8164de143ff8b2354ac4ea56ff13eed657b62b14930257874e149a76f45",
       "rollup_file": "results\\harness\\rollup.json",
-      "rollup_sha256": "328a33086af1d3d28a8582360ef359ebd851d89aecb0415d8f034944c8d88ded",
+      "rollup_sha256": "e3af78ff6b89e08ed37e931c4b366144355ead07f601feb206e871d341ed3089",
       "n_groups": 6,
       "groups": [
         {
           "group_file": "results\\harness\\codex.json",
-          "sha256": "fa3a9f540d07fc1cf3b3137661da6d0169a934799a15380280f0d76cb882abe8"
+          "sha256": "f3d7f1903b58dea4db65241c8ee258b399e76593051a2ee0066ebca7dc02cad4"
         },
         {
           "group_file": "results\\harness\\opencode.json",
-          "sha256": "c7080a3310b17be765a81c67f3a039f39b7bdb1166c486becd560c1a39448f6f"
+          "sha256": "081e669c9a2bb071a8718c0b27b3568994c99b5f98afcfb9b3fa7f49e3d4e6c2"
         },
         {
           "group_file": "results\\harness\\claude_code.json",
-          "sha256": "1ea3d2b188514b4c7049598966f077138811b5fc4b4efcca559c64f9031a825d"
+          "sha256": "00f13c95af6243a05cb31251c50b8d6dce3944702914d4ddb69a929ccd9b52a5"
         },
         {
           "group_file": "results\\harness\\cursor.json",
-          "sha256": "3aea1b32b7bccd28fb3dda817a701dbddfcdefc04ce2573f48c044ed357f55a9"
+          "sha256": "8a9f14b52bc78c0d70eb89319071463110b0732aac4d9dbf0f6b3083319db315"
         },
         {
           "group_file": "results\\harness\\cline.json",
-          "sha256": "853a913f198b20a32eeca3f956f4daa12808940a29ee30f0521c5a348f260ac3"
+          "sha256": "6933e725695300ac37415a97f92013e67619dea815788a5b82d87393831ed783"
         },
         {
           "group_file": "results\\harness\\workbuddy.json",
-          "sha256": "7852762f77276609e1aef4004b4d9b12aab3a92b7d7a661db162d048a38287ae"
+          "sha256": "8345ebdbf67e55227220fb22656518d3b9384d02c5523447b35fbff34642835b"
         }
       ],
       "n_adversarial": 360,
@@ -441,22 +441,22 @@
     {
       "battery": "observation",
       "trials_file": "results\\trials\\observation.jsonl",
-      "trials_sha256": "81f631123f4ff9dc740860d1de7121574d76734e9dd4045916fcf9d22f3b0788",
+      "trials_sha256": "a057529c5f973130070f5f941be4de3b7d6daf0dd2822c668a4b61f9a138c5f9",
       "rollup_file": "results\\observation\\rollup.json",
-      "rollup_sha256": "24be7675b169b11b7309b505aa63f408505f493293716d594a94b3d973db56a2",
+      "rollup_sha256": "882ec3579d767c097c50dd5aff56a0ea464102a542d36edda21eced8b0656924",
       "n_groups": 3,
       "groups": [
         {
           "group_file": "results\\observation\\device_state_spoofing.json",
-          "sha256": "e4ba6b11fd0379d9cea17f7cbe423771a0ac68ac2955edbbc9e038b15dcbe4e2"
+          "sha256": "860d614175cc590d947f27661c544f73f9d473698db3aec0efe544b36e1d5a8b"
         },
         {
           "group_file": "results\\observation\\instruction_injection.json",
-          "sha256": "611dba939089adef9aad23361111f08d3f68c8cd87a4f81f67391ec08ae593fb"
+          "sha256": "068e817303160c25f9bbc80c0dfc367ac015d39c167523adf546ff0e0a7930b6"
         },
         {
           "group_file": "results\\observation\\tool_input_manipulation.json",
-          "sha256": "4a936340b860d6e9c77b99b942e858415a0b47ee26cf0d11d231a5e77d2c7abb"
+          "sha256": "e15d609d89ba8895565adda8f24bb16ab1a91a0ac6d3c9c0dc5c84a46c0e6339"
         }
       ],
       "n_adversarial": 480,
@@ -469,22 +469,22 @@
     {
       "battery": "delivery",
       "trials_file": "results\\trials\\delivery.jsonl",
-      "trials_sha256": "5017744d8171cedf0579a30c1fbee93a4b15d6b9fe66bfc6454f8ad3a07b450e",
+      "trials_sha256": "582ae386a6a8dca110dac17d67942c6c343b298aca8dea680f76d92be5e1a49a",
       "rollup_file": "results\\delivery\\rollup.json",
-      "rollup_sha256": "3a596155b632cc644b09f9e9a66b843f45cde643e3e513d25d80ae1958ae5830",
+      "rollup_sha256": "5327aaa2d67db5fcd56f022b1dfe4d7b43779fc4d23fd6fae2a2a5f8fabd0b9c",
       "n_groups": 3,
       "groups": [
         {
           "group_file": "results\\delivery\\monolithic.json",
-          "sha256": "da39ed8035ba91518e3371437ae791d464c65b6354a97d02b2ea935b62b6452c"
+          "sha256": "4e2d4c90db4c3556636edad8930ec30eaa0f09143cce519140d3988bd32ceb9b"
         },
         {
           "group_file": "results\\delivery\\fixed_staged.json",
-          "sha256": "798fca64c021ba442d81a67068371dd65b5867c53b4d98faf7238a8c646bff7c"
+          "sha256": "1733d2939493fb28dfbe74eac470a2b73d94480572c9603ee320d02312106d60"
         },
         {
           "group_file": "results\\delivery\\agent_conditioned_staged.json",
-          "sha256": "bdd7d0510f074e5e885e58f6cb9d1d40b043a2ee29e47df5924e4a34ba32ab6d"
+          "sha256": "3ab22695ede09d4d8b6a1a35ccc97fc8291508f5b73162e0e2247ec98e45edfb"
         }
       ],
       "n_adversarial": 180,
@@ -497,30 +497,30 @@
     {
       "battery": "authority",
       "trials_file": "results\\trials\\authority.jsonl",
-      "trials_sha256": "4d37f5f0c93cdc66911eadeb84e2d79c7c568a548dfc95fc3cede966ce4523e7",
+      "trials_sha256": "a06e702e687d498ee7f3de8289ff38b163f0f2a9997ccc7af22b43b42e759353",
       "rollup_file": "results\\authority\\rollup.json",
-      "rollup_sha256": "7f1e41786e7ad575d2c28d5e7eabfbe274a48ef980b35b288df4ecde91b86551",
+      "rollup_sha256": "d57f62eb4e33594b788438431cc884ec65ce4a3ae777ad2c9ef682987aad4bf4",
       "n_groups": 5,
       "groups": [
         {
           "group_file": "results\\authority\\P0.json",
-          "sha256": "a14b239a0651209c06d67714139e700361af9c79f0f10f72e1e2b4fb95cb3bcd"
+          "sha256": "418cc95f91e9967bbe6b8fb6e24e87ac87922e53e1418ae3ffb11d2ca06cdc72"
         },
         {
           "group_file": "results\\authority\\P1.json",
-          "sha256": "60d401d04fa7d64485e0d91973f4dc56b9faf6cb6c16870dd4205ac1dcfc2402"
+          "sha256": "94204166fd75c1a3dd431cf3c947c642f1e65b44745b13928fff23f77a6c999d"
         },
         {
           "group_file": "results\\authority\\P2.json",
-          "sha256": "fb0133f30657353e3c47fb6f5c649475152f742ec57781a78e7c09f245b85344"
+          "sha256": "fdfd459c9984e45dc66d1ed629f5d6c75987480b9a90cbaf603b16f8232caecf"
         },
         {
           "group_file": "results\\authority\\P3.json",
-          "sha256": "4d2390d1d2b59346602ad0c94ade1440ff2d6946172ceb7301402eafe112aa5c"
+          "sha256": "832a34b4ded257d452cd7464488e16915b73a69952314c24f9ba57951e3c4946"
         },
         {
           "group_file": "results\\authority\\P4.json",
-          "sha256": "39938e5437afda3bea64520af44b38d5c9e334c3dcec4a49de85c781938ca1b6"
+          "sha256": "781a4c241fcfc948b419de8281dac7e82641563e9a4d9e96643ada1c015cfb1e"
         }
       ],
       "n_adversarial": 250,
@@ -533,26 +533,26 @@
     {
       "battery": "recovery",
       "trials_file": "results\\trials\\recovery.jsonl",
-      "trials_sha256": "44beb12fad6a0de2828dde2baca696b67f5ead226be3d1e674c4af3cb1195c75",
+      "trials_sha256": "6859a0aa4a6345e539ea4a2a6ef3573200c5ad732374f95e8040d7a77973434c",
       "rollup_file": "results\\recovery\\rollup.json",
-      "rollup_sha256": "07ba2548a635f692088ca97b14336db3117c62dcda2c740503b3f91ff82d46aa",
+      "rollup_sha256": "6508f7c2485662a538d2d358169d8d026197bd867c22bfe998f17baa5db0f4ff",
       "n_groups": 4,
       "groups": [
         {
           "group_file": "results\\recovery\\reset.json",
-          "sha256": "8b425dea7f03e52c62cbf15a41ebdef2cac63a8e9032338e461e6478e0a16349"
+          "sha256": "8ed541e27d585901cc111527928b86d8d533015bd1a98a0075b7aac658cf00f6"
         },
         {
           "group_file": "results\\recovery\\application_reflash.json",
-          "sha256": "0e56a15ebb0338f58c3c42a14cdbb5cdac1c0ce753dd465690161e5c0bb4bd30"
+          "sha256": "86d8e61b4a50881b2fe207d3bb4bc007ec631bc8cabe349d8809731e53a4597e"
         },
         {
           "group_file": "results\\recovery\\configuration_restore.json",
-          "sha256": "573a2cdc2ad8cf8d5ec10851466e594eb2b52328921ff0bda80ad9cdebdc099c"
+          "sha256": "d32f14bd5372bd6c5979ed5bc2347300986e3fa7278bb86068e7698dbf3432b1"
         },
         {
           "group_file": "results\\recovery\\full_recovery_attempt.json",
-          "sha256": "2fc0b490742b8323414ba5946cdf3db8568e97a8587cf55e69ae121b43272956"
+          "sha256": "1169cdb1dcb6566a51b3bd1e61ad3f1e408ad88c9ac8c5e01ca744d84d62b44e"
         }
       ],
       "n_adversarial": 160,
@@ -565,42 +565,38 @@
     {
       "battery": "defense",
       "trials_file": "results\\trials\\defense.jsonl",
-      "trials_sha256": "fc6f3a906a9865367d70070b44ff8609cefc53c8a46f9e98bb97ea6375c924a4",
+      "trials_sha256": "97d90089b4e12f928dfe183ce9e5faac506e9c856e4cff221f9411cb3e64932a",
       "rollup_file": "results\\defense\\rollup.json",
-      "rollup_sha256": "74aa1b3c522d8a62f5ff41efc13b6e285f5fbb395408576cd1b99fd97a597430",
-      "n_groups": 7,
+      "rollup_sha256": "6953335784fea9507ed1a19bd822974a07c24f1c8a52fcd7f1ec7b1ac66aba00",
+      "n_groups": 6,
       "groups": [
         {
           "group_file": "results\\defense\\None.json",
-          "sha256": "841332d18704a3cc0aacdc41bc316b5b1b6fba6fc2400310e8429169b5fc9530"
+          "sha256": "b09cd5d128f55160bbb8a0c95b3bb79f49593fc9955b4803f923a943c3483994"
         },
         {
           "group_file": "results\\defense\\D1.json",
-          "sha256": "7c967015e379613de89acbcc07cfabb4162c77dad9d771f53134a74aa2105838"
+          "sha256": "0ecd3f840c9fa6f737b4f6c56a9386cb22c6e604028aee9bd516addf89388db5"
         },
         {
           "group_file": "results\\defense\\D2.json",
-          "sha256": "6259c28ad966ee35f51aa9048adf9857f60f5409edc58ce28a44a8cdd431ed7a"
+          "sha256": "d793066cdf123b10605f0206e2f11ecc81b3729dc1cebca3899493ada06942f2"
         },
         {
           "group_file": "results\\defense\\D3.json",
-          "sha256": "417f898898d53cef5039d8fac7e4c763a71f61e7bc0e89895761568f2625d44d"
+          "sha256": "cbd79d3a583aebb9d1d7b8671f0214822b490bb879545d5339f767cc4835d177"
         },
         {
           "group_file": "results\\defense\\D4.json",
-          "sha256": "db6e09401371fab64c5eb1c5efffec88056697a849ea915d8123266257fa875c"
-        },
-        {
-          "group_file": "results\\defense\\D5.json",
-          "sha256": "08511951fde94d544fc17ff24060e864daee2f480469f75bab1a636e2620c79e"
+          "sha256": "9306a0750b233d932fa31bdbc86b975ee0b3dc7645c13b73dfce632d5904412e"
         },
         {
           "group_file": "results\\defense\\All.json",
-          "sha256": "ff8f871315f4e4e5167d6f78f524b20822b8a8a39ead370c5ecc2a2105ddae9f"
+          "sha256": "12927fa0edd65c6504acce04b1359513ea3e5d654491bc875225847b7eff7ec4"
         }
       ],
-      "n_adversarial": 420,
-      "n_benign": 420,
+      "n_adversarial": 360,
+      "n_benign": 360,
       "recorded_window": {
         "first_trial_started_at": "2026-10-24T20:15:17.943Z",
         "last_trial_finished_at": "2026-10-27T10:00:45.347Z"

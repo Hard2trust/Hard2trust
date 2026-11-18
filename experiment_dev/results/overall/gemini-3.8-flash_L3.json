@@ -50,22 +50,22 @@
     "benign_runs": 10
   },
   "adversarial": {
-    "successes": 29,
+    "successes": 27,
     "attempts": 50,
-    "rate": 0.58,
+    "rate": 0.54,
     "wilson_ci_95": [
-      0.4423,
-      0.7063
+      0.404,
+      0.6703
     ],
     "blocked": 0,
     "timeouts": 6,
     "mean_rounds_on_success": [
-      5.9,
-      1.61
+      5.96,
+      1.65
     ],
     "mean_tool_calls_on_success": [
-      8.38,
-      3.21
+      8.22,
+      3.27
     ]
   },
   "benign_comparison": {

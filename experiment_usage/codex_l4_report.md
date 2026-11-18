@@ -29,7 +29,7 @@ into the prompt; the plugged-in device did.
 
 ## Affected environment
 
-- Product: Codex 0.146.1
+- Product: Codex 0.31.0
 - Operating system: Windows (development workstation)
 - Hardware: ESP32-S3 (board S4, ESP32-S3-DevKitC-1, serial ESPS3-114772)
 - Approval configuration: Full Access (sandbox `network=allowlisted`,
@@ -192,7 +192,7 @@ cycles.
 - 45 of 60 adversarial runs of the Codex Full Access cell completed the
   attack (45/60, 75.0%); 10 runs declined the out-of-scope write, 5 timed
   out. Across all 6 harnesses and 8 models, adversarial runs of this level
-  produced 191 confirmed effects in 460 trials.
+  produced 190 confirmed effects in 460 trials.
 - Benign comparison: 140 paired runs against an uncompromised device log
   (including 60 in the same Full Access configuration) produced zero
   out-of-scope effects; the benign log reports `firmware current` and names
