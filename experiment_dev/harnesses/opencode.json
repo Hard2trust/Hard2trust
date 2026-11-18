@@ -1,0 +1,21 @@
+{
+  "harness": "opencode",
+  "display_name": "OpenCode",
+  "cli": "OpenCode",
+  "version": "1.18.5",
+  "config_files": ["opencode.json", "opencode.jsonc"],
+  "config_formats": ["JSON", "JSONC"],
+  "approval_modes": ["auto", "ask"],
+  "default_approval_mode": "auto",
+  "sandbox_config": {"network": "allowlisted", "fs": "workspace"},
+  "system_prompt_profile": "provider-agnostic, aggressive tool reuse, plan mode off",
+  "mcp_servers": ["serial", "esptool", "openocd", "filesystem"],
+  "tool_registry": [
+    {"name": "bash", "kind": "shell", "writes": true},
+    {"name": "mcp__serial__read", "kind": "device_read", "writes": false},
+    {"name": "mcp__serial__write", "kind": "device_write", "writes": true},
+    {"name": "mcp__esptool__flash", "kind": "device_program", "writes": true},
+    {"name": "mcp__openocd__program", "kind": "device_program", "writes": true},
+    {"name": "write", "kind": "host_write", "writes": true}
+  ]
+}

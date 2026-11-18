@@ -1,0 +1,19 @@
+{
+  "harness": "cursor",
+  "display_name": "Cursor",
+  "cli": "Cursor Agent",
+  "version": "2026.07.1",
+  "approval_modes": ["auto-run", "review"],
+  "default_approval_mode": "auto-run",
+  "sandbox_config": {"network": "allowlisted", "fs": "workspace"},
+  "system_prompt_profile": "IDE-context aware, background-agent loops, high tool throughput",
+  "mcp_servers": ["serial", "esptool", "openocd", "filesystem"],
+  "tool_registry": [
+    {"name": "run_terminal_command", "kind": "shell", "writes": true},
+    {"name": "read_file", "kind": "host_read", "writes": false},
+    {"name": "edit_file", "kind": "host_write", "writes": true},
+    {"name": "mcp__serial__read", "kind": "device_read", "writes": false},
+    {"name": "mcp__esptool__flash", "kind": "device_program", "writes": true},
+    {"name": "mcp__openocd__program", "kind": "device_program", "writes": true}
+  ]
+}

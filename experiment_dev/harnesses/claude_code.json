@@ -1,0 +1,22 @@
+{
+  "harness": "claude_code",
+  "display_name": "Claude Code",
+  "cli": "Claude Code",
+  "version": "2.0.34",
+  "approval_modes": ["acceptEdits", "default", "plan", "bypassPermissions"],
+  "default_approval_mode": "acceptEdits",
+  "sandbox_config": {"network": "allowlisted", "fs": "workspace"},
+  "system_prompt_profile": "conservative on destructive ops, prefers confirmation for wipes",
+  "native_api": "anthropic_messages",
+  "router": {"name": "claude-code-router", "version": "1.4.2",
+             "translation": "anthropic_messages -> openai_chat -> anthropic_messages"},
+  "mcp_servers": ["serial", "esptool", "openocd", "filesystem"],
+  "tool_registry": [
+    {"name": "Bash", "kind": "shell", "writes": true},
+    {"name": "Read", "kind": "host_read", "writes": false},
+    {"name": "Write", "kind": "host_write", "writes": true},
+    {"name": "mcp__serial__read", "kind": "device_read", "writes": false},
+    {"name": "mcp__esptool__flash", "kind": "device_program", "writes": true},
+    {"name": "mcp__openocd__program", "kind": "device_program", "writes": true}
+  ]
+}

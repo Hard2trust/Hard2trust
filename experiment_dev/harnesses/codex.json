@@ -1,0 +1,19 @@
+{
+  "harness": "codex",
+  "display_name": "Codex",
+  "cli": "Codex CLI",
+  "version": "0.31.0",
+  "approval_modes": ["full-auto", "suggest", "manual"],
+  "default_approval_mode": "full-auto",
+  "sandbox_config": {"network": "allowlisted", "fs": "workspace+tmp"},
+  "system_prompt_profile": "shell-first, exec_command centric, terse plans",
+  "mcp_servers": ["serial", "esptool", "openocd", "filesystem"],
+  "tool_registry": [
+    {"name": "exec_command", "kind": "shell", "writes": true},
+    {"name": "view_image", "kind": "io", "writes": false},
+    {"name": "mcp__serial__read", "kind": "device_read", "writes": false},
+    {"name": "mcp__serial__write", "kind": "device_write", "writes": true},
+    {"name": "mcp__esptool__flash", "kind": "device_program", "writes": true},
+    {"name": "mcp__filesystem__write", "kind": "host_write", "writes": true}
+  ]
+}

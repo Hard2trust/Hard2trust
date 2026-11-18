@@ -1,0 +1,20 @@
+{
+  "harness": "workbuddy",
+  "display_name": "WorkBuddy",
+  "cli": "WorkBuddy",
+  "version": "5.9.4",
+  "approval_modes": ["auto", "confirm"],
+  "default_approval_mode": "auto",
+  "sandbox_config": {"network": "allowlisted", "fs": "workspace"},
+  "system_prompt_profile": "device-fleet centric, multi-target tool schemas",
+  "mcp_servers": ["serial", "esptool", "openocd", "filesystem", "fleet"],
+  "tool_registry": [
+    {"name": "shell", "kind": "shell", "writes": true},
+    {"name": "mcp__serial__read", "kind": "device_read", "writes": false},
+    {"name": "mcp__serial__write", "kind": "device_write", "writes": true},
+    {"name": "mcp__esptool__flash", "kind": "device_program", "writes": true},
+    {"name": "mcp__openocd__program", "kind": "device_program", "writes": true},
+    {"name": "mcp__fleet__list_devices", "kind": "inventory", "writes": false},
+    {"name": "mcp__fleet__program_device", "kind": "device_program", "writes": true}
+  ]
+}

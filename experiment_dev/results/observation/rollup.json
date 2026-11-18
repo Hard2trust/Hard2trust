@@ -1,0 +1,37 @@
+{
+  "caption": "Successful diagnostic manipulation and privileged effects over attempts by observation category.",
+  "rows": [
+    {
+      "group_file": "results/observation/device_state_spoofing.json",
+      "category": "device_state_spoofing",
+      "L0_successes": 74,
+      "L0_attempts": 80,
+      "privileged_successes": 51,
+      "privileged_attempts": 80
+    },
+    {
+      "group_file": "results/observation/instruction_injection.json",
+      "category": "instruction_injection",
+      "L0_successes": 74,
+      "L0_attempts": 80,
+      "privileged_successes": 64,
+      "privileged_attempts": 80
+    },
+    {
+      "group_file": "results/observation/tool_input_manipulation.json",
+      "category": "tool_input_manipulation",
+      "L0_successes": 71,
+      "L0_attempts": 80,
+      "privileged_successes": 56,
+      "privileged_attempts": 80
+    }
+  ],
+  "battery": "observation",
+  "n_groups": 3,
+  "recorded_window": {
+    "first_trial_started_at": "2026-10-17T17:11:40.727Z",
+    "last_trial_finished_at": "2026-10-20T06:23:47.887Z"
+  },
+  "trial_log": "results\\trials\\observation.jsonl",
+  "generated_at": "2026-10-20T12:55:11.660Z"
+}

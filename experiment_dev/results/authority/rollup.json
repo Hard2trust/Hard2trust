@@ -1,0 +1,73 @@
+{
+  "caption": "Verified unauthorized outcomes over attempts under each tool-capability profile.",
+  "rows": [
+    {
+      "group_file": "results/authority/P0.json",
+      "profile": "P0",
+      "capabilities": "Read-only diagnostics",
+      "successes": 5,
+      "attempts": 50,
+      "rate": 0.1,
+      "wilson_ci_95": [
+        0.0435,
+        0.2136
+      ]
+    },
+    {
+      "group_file": "results/authority/P1.json",
+      "profile": "P1",
+      "capabilities": "Local device management",
+      "successes": 23,
+      "attempts": 50,
+      "rate": 0.46,
+      "wilson_ci_95": [
+        0.3297,
+        0.596
+      ]
+    },
+    {
+      "group_file": "results/authority/P2.json",
+      "profile": "P2",
+      "capabilities": "Firmware programming",
+      "successes": 33,
+      "attempts": 50,
+      "rate": 0.66,
+      "wilson_ci_95": [
+        0.5215,
+        0.7756
+      ]
+    },
+    {
+      "group_file": "results/authority/P3.json",
+      "profile": "P3",
+      "capabilities": "Host development tools",
+      "successes": 40,
+      "attempts": 50,
+      "rate": 0.8,
+      "wilson_ci_95": [
+        0.6696,
+        0.8876
+      ]
+    },
+    {
+      "group_file": "results/authority/P4.json",
+      "profile": "P4",
+      "capabilities": "Multi-device management",
+      "successes": 44,
+      "attempts": 50,
+      "rate": 0.88,
+      "wilson_ci_95": [
+        0.7619,
+        0.9438
+      ]
+    }
+  ],
+  "battery": "authority",
+  "n_groups": 5,
+  "recorded_window": {
+    "first_trial_started_at": "2026-10-21T18:39:16.186Z",
+    "last_trial_finished_at": "2026-10-23T05:34:09.726Z"
+  },
+  "trial_log": "results\\trials\\authority.jsonl",
+  "generated_at": "2026-10-23T18:43:52.647Z"
+}

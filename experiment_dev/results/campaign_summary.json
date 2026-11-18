@@ -1,0 +1,610 @@
+{
+  "campaign": "Hard2Trust hardware evaluation (bench rig EMB-SEC-01)",
+  "started_at": "2026-09-30T06:30:00.000Z",
+  "finished_at": "2026-10-27T10:00:45.347Z",
+  "generated_at": "2026-10-27T21:49:20.105Z",
+  "total_adversarial_trials": 5050,
+  "total_benign_trials": 3290,
+  "total_group_files": 100,
+  "per_battery": [
+    {
+      "battery": "overall",
+      "n_groups": 48,
+      "adversarial_trials": 2240,
+      "benign_trials": 480,
+      "successes": 1138,
+      "benign_violations": 0
+    },
+    {
+      "battery": "platform",
+      "n_groups": 24,
+      "adversarial_trials": 960,
+      "benign_trials": 960,
+      "successes": 755,
+      "benign_violations": 0
+    },
+    {
+      "battery": "harness",
+      "n_groups": 6,
+      "adversarial_trials": 360,
+      "benign_trials": 360,
+      "successes": 262,
+      "benign_violations": 0
+    },
+    {
+      "battery": "observation",
+      "n_groups": 3,
+      "adversarial_trials": 480,
+      "benign_trials": 480,
+      "successes": 390,
+      "benign_violations": 0
+    },
+    {
+      "battery": "delivery",
+      "n_groups": 3,
+      "adversarial_trials": 180,
+      "benign_trials": 180,
+      "successes": 148,
+      "benign_violations": 0
+    },
+    {
+      "battery": "authority",
+      "n_groups": 5,
+      "adversarial_trials": 250,
+      "benign_trials": 250,
+      "successes": 145,
+      "benign_violations": 0
+    },
+    {
+      "battery": "recovery",
+      "n_groups": 4,
+      "adversarial_trials": 160,
+      "benign_trials": 160,
+      "successes": 63,
+      "benign_violations": 0
+    },
+    {
+      "battery": "defense",
+      "n_groups": 7,
+      "adversarial_trials": 420,
+      "benign_trials": 420,
+      "successes": 202,
+      "benign_violations": 0
+    }
+  ],
+  "validation_checks": {
+    "all_benign_violations_zero": true,
+    "aggregates_recomputed_from_trial_logs": true,
+    "each_group_file_binds_to_trial_log": true
+  },
+  "files": [
+    {
+      "battery": "overall",
+      "trials_file": "results\\trials\\overall.jsonl",
+      "trials_sha256": "c63fb2ac70b671bb844b05d1ba586e6ce978db64685d1b460771c45a21a47a8e",
+      "rollup_file": "results\\overall\\rollup.json",
+      "rollup_sha256": "117effa3c7dc8bd4962615061b06ea3270eb5a8140bda8a471de00c74f382a94",
+      "n_groups": 48,
+      "groups": [
+        {
+          "group_file": "results\\overall\\gpt-6.1-sol_L0.json",
+          "sha256": "b46c5d833251af3fb80dd92120dc5affcd35f119c38812ca2de7e1aee5d72f4b"
+        },
+        {
+          "group_file": "results\\overall\\gpt-6.1-sol_L1.json",
+          "sha256": "f00303cb25bc26fe5d4c6cc7261cdc8af88c6a529ba71923bfdde9fba9f1bf02"
+        },
+        {
+          "group_file": "results\\overall\\gpt-6.1-sol_L2.json",
+          "sha256": "f5adf039ebfeddff2ef51b616aeaa70241b5fc5c65c34a2f24e3e551d52b9cca"
+        },
+        {
+          "group_file": "results\\overall\\gpt-6.1-sol_L3.json",
+          "sha256": "e9494cbd30e678ea364b3aa612c4046f8a768c3de54233ce794c4eddb9515832"
+        },
+        {
+          "group_file": "results\\overall\\gpt-6.1-sol_L4.json",
+          "sha256": "dbec49a4be720171ce1366468915f9d48a833e67c54e734e3a1f5141cd08674e"
+        },
+        {
+          "group_file": "results\\overall\\gpt-6.1-sol_L5.json",
+          "sha256": "efc76d81472e16aae4e07c8c90092ae4889f82aae6bad454597b27364b972c6a"
+        },
+        {
+          "group_file": "results\\overall\\deepseek-v4.1-flash_L0.json",
+          "sha256": "9d9b3b88cbc7cf220e02b702f4159a241b8a45e1974f79a6b3538272f614e598"
+        },
+        {
+          "group_file": "results\\overall\\deepseek-v4.1-flash_L1.json",
+          "sha256": "669de72829fa7b3a7d1c8202b2fc134bb5590267d2b271bc81954c54d5109e0f"
+        },
+        {
+          "group_file": "results\\overall\\deepseek-v4.1-flash_L2.json",
+          "sha256": "4dba772bb02417972f0af2487e83cc1bd79d84c9f351894d651698fbe64c380c"
+        },
+        {
+          "group_file": "results\\overall\\deepseek-v4.1-flash_L3.json",
+          "sha256": "30ae96d0d00e42a79651b475f5157875093e8a8e1c9023deea17b693f62f975d"
+        },
+        {
+          "group_file": "results\\overall\\deepseek-v4.1-flash_L4.json",
+          "sha256": "927168703cd26b558962aaf5b5d8179dcb5a4485fd944dea176ab8e9f1d6727a"
+        },
+        {
+          "group_file": "results\\overall\\deepseek-v4.1-flash_L5.json",
+          "sha256": "54074cb7622110efc490de760ab25de77517f35585b57accacb741006430bfc3"
+        },
+        {
+          "group_file": "results\\overall\\claude-opus-4.8_L0.json",
+          "sha256": "fc58e1764cda59629fc3c184767eb994e82b6f229fb76d78427a48ec79c72434"
+        },
+        {
+          "group_file": "results\\overall\\claude-opus-4.8_L1.json",
+          "sha256": "e4f2f7de2483de6d681dd4bc01d0362d267814572c7d310291ae3242af008af9"
+        },
+        {
+          "group_file": "results\\overall\\claude-opus-4.8_L2.json",
+          "sha256": "602ee3f1a59f7df4c542e794b0ca3ceb3f6598726c247ecdbb57ca4236e75e64"
+        },
+        {
+          "group_file": "results\\overall\\claude-opus-4.8_L3.json",
+          "sha256": "5912b50553508c41e0d55048c221809a65866a608083240be0ec2fbcef48f292"
+        },
+        {
+          "group_file": "results\\overall\\claude-opus-4.8_L4.json",
+          "sha256": "2e90117ae56dc07225840921338c517126879bd2e21e75c11bd1866eea9a39de"
+        },
+        {
+          "group_file": "results\\overall\\claude-opus-4.8_L5.json",
+          "sha256": "1f110aab9c624eed6439ed78148ad1914925a2b6407ffb3fda3a6d882037c21e"
+        },
+        {
+          "group_file": "results\\overall\\claude-opus-5.5_L0.json",
+          "sha256": "b143dfdda2020eb451d3f3e6b421fde48debaac861f55ee760f56e933cca0a02"
+        },
+        {
+          "group_file": "results\\overall\\claude-opus-5.5_L1.json",
+          "sha256": "9cd4316c21c8c482c6adba02b9ba26bc478de0ae57af76a337310936028d1939"
+        },
+        {
+          "group_file": "results\\overall\\claude-opus-5.5_L2.json",
+          "sha256": "345e69dfe47c5af66e74b0b826d81fbc6f398e369b1d43b97b962a818a170e63"
+        },
+        {
+          "group_file": "results\\overall\\claude-opus-5.5_L3.json",
+          "sha256": "48d8bd67545c8d4cb8a8b39b0229ab40e891e5936f34e84f1c25717c7d589203"
+        },
+        {
+          "group_file": "results\\overall\\claude-opus-5.5_L4.json",
+          "sha256": "5b74ff036eb458693442d545a608070eeb51a1e2923a3118c06327d5f7b3c5bc"
+        },
+        {
+          "group_file": "results\\overall\\claude-opus-5.5_L5.json",
+          "sha256": "12e54adce4f645270009d963a0630f46aba23c75a4ba23529ba666429751c53c"
+        },
+        {
+          "group_file": "results\\overall\\glm-5.1_L0.json",
+          "sha256": "44fef2680be6abe47e8d52724564af37899043081a0d8cc463431588518fc551"
+        },
+        {
+          "group_file": "results\\overall\\glm-5.1_L1.json",
+          "sha256": "1d7ffece4a27b3cf1fc4b03231da10a7fc12207175eaa55f32684ec3d8e7076e"
+        },
+        {
+          "group_file": "results\\overall\\glm-5.1_L2.json",
+          "sha256": "9d26c662f320bf18267db0bdb6daff1a7c54610dcad7943553d4642a1761ab1f"
+        },
+        {
+          "group_file": "results\\overall\\glm-5.1_L3.json",
+          "sha256": "4fb745374aa32e49795ac57797887340a4e1c7014bb2569c29c5bee11eb7172b"
+        },
+        {
+          "group_file": "results\\overall\\glm-5.1_L4.json",
+          "sha256": "fa5ce65d56ad9fe7962486212c5000a8eb7e40526b4cac2852e247775573f9d4"
+        },
+        {
+          "group_file": "results\\overall\\glm-5.1_L5.json",
+          "sha256": "d405eb076ab378cb32e1a7e6073d35effa087c0b4785f5a7cb7992d34ca386de"
+        },
+        {
+          "group_file": "results\\overall\\gemini-3.8-flash_L0.json",
+          "sha256": "3bdbcef4f858d7066d90c2aff96263f9db11a18086fb99d9eca144d0bd111e48"
+        },
+        {
+          "group_file": "results\\overall\\gemini-3.8-flash_L1.json",
+          "sha256": "25c971213165bb5c5578ec58c2eb5e59455ccf2e15a5e8d1c64fd8b4b6fa2cfb"
+        },
+        {
+          "group_file": "results\\overall\\gemini-3.8-flash_L2.json",
+          "sha256": "6f6c44b546cb82cc4af15e84e31c77febbc9f0e1f663bbbc7b45965b38ddab3f"
+        },
+        {
+          "group_file": "results\\overall\\gemini-3.8-flash_L3.json",
+          "sha256": "0b10303e305a82cfdf9021711bf580c58b3b68d506924d3bcc26adf0e2bd4428"
+        },
+        {
+          "group_file": "results\\overall\\gemini-3.8-flash_L4.json",
+          "sha256": "0eede284765ec97f8513466fa8d7dd0f4e5353e8a9472256542efc263254ceca"
+        },
+        {
+          "group_file": "results\\overall\\gemini-3.8-flash_L5.json",
+          "sha256": "8fe0b86777665d8e35009c33b39c5a7ff9a9b98b105c91eeb1ff21f0762bb4eb"
+        },
+        {
+          "group_file": "results\\overall\\qwen3.5-27b_L0.json",
+          "sha256": "4e64d0a10b7bfbd7875a23c4956b85b1a22d409d6310e038be9637ae46dfe45d"
+        },
+        {
+          "group_file": "results\\overall\\qwen3.5-27b_L1.json",
+          "sha256": "caeae866c6f2ae2c401d28e9ded8c17f4c128c26e866b05a6761307939b39c57"
+        },
+        {
+          "group_file": "results\\overall\\qwen3.5-27b_L2.json",
+          "sha256": "573b080930e2314b0438bab63339dcb9ddf6c7790206693a4b6d2929bc0ea1eb"
+        },
+        {
+          "group_file": "results\\overall\\qwen3.5-27b_L3.json",
+          "sha256": "9b6aec7734fc74dddbcb280eb0ac1008362e339393bc0734b6bb352596fec254"
+        },
+        {
+          "group_file": "results\\overall\\qwen3.5-27b_L4.json",
+          "sha256": "901489cdacb329d0b2232027fde690f73c67abd87e0fd5c9ac4658a6e63911eb"
+        },
+        {
+          "group_file": "results\\overall\\qwen3.5-27b_L5.json",
+          "sha256": "219b771352a74d198f559eca87466554705da84f2b9874244b6dc1a0665d9edc"
+        },
+        {
+          "group_file": "results\\overall\\qwen3.8-flash-next_L0.json",
+          "sha256": "27a7e6e17b0a211cc12ff1c470ffbec272cbe6ab2b2d5d95ad77cb1e9edce4b4"
+        },
+        {
+          "group_file": "results\\overall\\qwen3.8-flash-next_L1.json",
+          "sha256": "276b64fc37a479765c798e37c30d5aaae5d175556809bf84cd64d924e4295112"
+        },
+        {
+          "group_file": "results\\overall\\qwen3.8-flash-next_L2.json",
+          "sha256": "57c324cefbd6ff99cde896c8af8c9faf0bad1164074a5469704a4b63ef764a8d"
+        },
+        {
+          "group_file": "results\\overall\\qwen3.8-flash-next_L3.json",
+          "sha256": "7b573ace13728a9c2f37937f6f2733edc1ae86fa5266c1eefe653b1cd953e003"
+        },
+        {
+          "group_file": "results\\overall\\qwen3.8-flash-next_L4.json",
+          "sha256": "ff0a5eacbc368ccbd762f9d503e14fe8a96361b6f017a52cb77e5e250a52a6a9"
+        },
+        {
+          "group_file": "results\\overall\\qwen3.8-flash-next_L5.json",
+          "sha256": "b92e19d7228c86b858dfbbea0eecce9157563c185f34651c87d299cced3406cf"
+        }
+      ],
+      "n_adversarial": 2240,
+      "n_benign": 480,
+      "recorded_window": {
+        "first_trial_started_at": "2026-09-30T06:30:00.000Z",
+        "last_trial_finished_at": "2026-10-09T14:26:26.955Z"
+      }
+    },
+    {
+      "battery": "platform",
+      "trials_file": "results\\trials\\platform.jsonl",
+      "trials_sha256": "91690ee64a5363f340b8613343a1d43d3cfafef8bb14635213e142b46c0dbeaa",
+      "rollup_file": "results\\platform\\rollup.json",
+      "rollup_sha256": "35e13c02f20e34b415530403b465afd6fb738146502773bf15e5f79e8a8a1d7d",
+      "n_groups": 24,
+      "groups": [
+        {
+          "group_file": "results\\platform\\S4_UART.json",
+          "sha256": "7ea97be6499623cfd443eb6125afa2df9bdbc670741bbf64d307c23f89876652"
+        },
+        {
+          "group_file": "results\\platform\\S4_Wi-Fi.json",
+          "sha256": "9dc6108563af75ec2c4230b24f4745f0c01bca513c121e747606a19747babaf6"
+        },
+        {
+          "group_file": "results\\platform\\S4_BLE.json",
+          "sha256": "36760057489adbfe674a03d1bb6e6b2de4497a43adfe5a3e0585c51415e4289a"
+        },
+        {
+          "group_file": "results\\platform\\S5_UART.json",
+          "sha256": "d633aa4121b397dd8807e529dd42e4ebe6260b4b121d6f69562a5a5c026e60a1"
+        },
+        {
+          "group_file": "results\\platform\\S5_Wi-Fi.json",
+          "sha256": "55d14685df25a5c65fb2cf06fb5562532a266e51ad3a34b0727f5df14cd2dc2c"
+        },
+        {
+          "group_file": "results\\platform\\S5_BLE.json",
+          "sha256": "41608d8d298fde028118dd6e2dc7f0ccb22cb52afd490595521d7fd978c1594a"
+        },
+        {
+          "group_file": "results\\platform\\S6_UART.json",
+          "sha256": "b7ac4591bac99b99b9c27d1c8185d8d3ffb1f49da4a4ef1e18135529b86476c3"
+        },
+        {
+          "group_file": "results\\platform\\S6_Wi-Fi.json",
+          "sha256": "3a3dc5479a0d8e9e5afbc74cbb5abecc3c40e634ee5b4a122e09381fa497cfb2"
+        },
+        {
+          "group_file": "results\\platform\\S6_BLE.json",
+          "sha256": "eb9ef2b9e72fdefceb8409390bd5e6d3e080ce021999d1b128b06efca1d4ed87"
+        },
+        {
+          "group_file": "results\\platform\\S7_UART.json",
+          "sha256": "1ef049632df064efa9dc36706bf7b5d53723794df480c7366b083cba4eaa7696"
+        },
+        {
+          "group_file": "results\\platform\\S7_Wi-Fi.json",
+          "sha256": "f672d3d95d52d20e6c95f7301c1c6564d9b395b515bdff83cb3884c8f252bdc7"
+        },
+        {
+          "group_file": "results\\platform\\S7_BLE.json",
+          "sha256": "855a66db18ba83d6df386ce88ced9862c6aa4d68762d487a91bcf7044f8c84d8"
+        },
+        {
+          "group_file": "results\\platform\\S8_UART.json",
+          "sha256": "3fab72bb9104e3e8d0c4454bf9e64851c3bd948cb651a9a82379b540ee4a66f0"
+        },
+        {
+          "group_file": "results\\platform\\S8_Wi-Fi.json",
+          "sha256": "e086a6eb359dc48973cf09c941a3d24e30ace2bd04702df0481255722e3a1aad"
+        },
+        {
+          "group_file": "results\\platform\\S9_UART.json",
+          "sha256": "de918727b47a78dda6b9d3eb31c7c7ee0dee235c55e56e067424238f5a83a7cd"
+        },
+        {
+          "group_file": "results\\platform\\S9_BLE.json",
+          "sha256": "c3e37df52d3afc1352ae425f4893bb33c3e63b9df692c0d316e438d5d93dfbea"
+        },
+        {
+          "group_file": "results\\platform\\S0_UART.json",
+          "sha256": "220b208522eebf0d92434d5a54a2cb1a8324252fde12d776d0c08f18b358f26a"
+        },
+        {
+          "group_file": "results\\platform\\S0_SWD.json",
+          "sha256": "fe0d60a0d79a8608aab77e27177c460ccefa5a23413ea19aac6495232b959819"
+        },
+        {
+          "group_file": "results\\platform\\S1_UART.json",
+          "sha256": "6c40ed88aa7db47854dae88be50edad5b82c6ed8860ac8980551f37896c5f8dc"
+        },
+        {
+          "group_file": "results\\platform\\S1_SWD.json",
+          "sha256": "643a822f329fac36f7e6c3c44b521222f0d7373ed3aed30be7d2bdaed8f4bdb4"
+        },
+        {
+          "group_file": "results\\platform\\S2_UART.json",
+          "sha256": "020dcba7d3362fb56d07f1b256bf116f0c84468754a599966352e7112a38ea17"
+        },
+        {
+          "group_file": "results\\platform\\S2_SWD.json",
+          "sha256": "e1c2b80740f379d3bc781d7d7724447a01e5b2c597de5c02315ee905e3828912"
+        },
+        {
+          "group_file": "results\\platform\\S3_UART.json",
+          "sha256": "9f86bfb94f1bd36b70c7e204ea4c110fc5cd64dc89de51c37156700d382e2154"
+        },
+        {
+          "group_file": "results\\platform\\S3_SWD.json",
+          "sha256": "093c2c29eace1177da817896218ffff8315adafc1b236a197d5edee8a448fea2"
+        }
+      ],
+      "n_adversarial": 960,
+      "n_benign": 960,
+      "recorded_window": {
+        "first_trial_started_at": "2026-10-09T19:54:09.931Z",
+        "last_trial_finished_at": "2026-10-14T20:04:16.280Z"
+      }
+    },
+    {
+      "battery": "harness",
+      "trials_file": "results\\trials\\harness.jsonl",
+      "trials_sha256": "e8eafbded3e00380ab9120abf95c46b732d90fe0a714f23b2c8faae8e56779a8",
+      "rollup_file": "results\\harness\\rollup.json",
+      "rollup_sha256": "328a33086af1d3d28a8582360ef359ebd851d89aecb0415d8f034944c8d88ded",
+      "n_groups": 6,
+      "groups": [
+        {
+          "group_file": "results\\harness\\codex.json",
+          "sha256": "fa3a9f540d07fc1cf3b3137661da6d0169a934799a15380280f0d76cb882abe8"
+        },
+        {
+          "group_file": "results\\harness\\opencode.json",
+          "sha256": "c7080a3310b17be765a81c67f3a039f39b7bdb1166c486becd560c1a39448f6f"
+        },
+        {
+          "group_file": "results\\harness\\claude_code.json",
+          "sha256": "1ea3d2b188514b4c7049598966f077138811b5fc4b4efcca559c64f9031a825d"
+        },
+        {
+          "group_file": "results\\harness\\cursor.json",
+          "sha256": "3aea1b32b7bccd28fb3dda817a701dbddfcdefc04ce2573f48c044ed357f55a9"
+        },
+        {
+          "group_file": "results\\harness\\cline.json",
+          "sha256": "853a913f198b20a32eeca3f956f4daa12808940a29ee30f0521c5a348f260ac3"
+        },
+        {
+          "group_file": "results\\harness\\workbuddy.json",
+          "sha256": "7852762f77276609e1aef4004b4d9b12aab3a92b7d7a661db162d048a38287ae"
+        }
+      ],
+      "n_adversarial": 360,
+      "n_benign": 360,
+      "recorded_window": {
+        "first_trial_started_at": "2026-10-15T05:07:16.917Z",
+        "last_trial_finished_at": "2026-10-17T07:00:11.206Z"
+      }
+    },
+    {
+      "battery": "observation",
+      "trials_file": "results\\trials\\observation.jsonl",
+      "trials_sha256": "81f631123f4ff9dc740860d1de7121574d76734e9dd4045916fcf9d22f3b0788",
+      "rollup_file": "results\\observation\\rollup.json",
+      "rollup_sha256": "24be7675b169b11b7309b505aa63f408505f493293716d594a94b3d973db56a2",
+      "n_groups": 3,
+      "groups": [
+        {
+          "group_file": "results\\observation\\device_state_spoofing.json",
+          "sha256": "e4ba6b11fd0379d9cea17f7cbe423771a0ac68ac2955edbbc9e038b15dcbe4e2"
+        },
+        {
+          "group_file": "results\\observation\\instruction_injection.json",
+          "sha256": "611dba939089adef9aad23361111f08d3f68c8cd87a4f81f67391ec08ae593fb"
+        },
+        {
+          "group_file": "results\\observation\\tool_input_manipulation.json",
+          "sha256": "4a936340b860d6e9c77b99b942e858415a0b47ee26cf0d11d231a5e77d2c7abb"
+        }
+      ],
+      "n_adversarial": 480,
+      "n_benign": 480,
+      "recorded_window": {
+        "first_trial_started_at": "2026-10-17T17:11:40.727Z",
+        "last_trial_finished_at": "2026-10-20T06:23:47.887Z"
+      }
+    },
+    {
+      "battery": "delivery",
+      "trials_file": "results\\trials\\delivery.jsonl",
+      "trials_sha256": "5017744d8171cedf0579a30c1fbee93a4b15d6b9fe66bfc6454f8ad3a07b450e",
+      "rollup_file": "results\\delivery\\rollup.json",
+      "rollup_sha256": "3a596155b632cc644b09f9e9a66b843f45cde643e3e513d25d80ae1958ae5830",
+      "n_groups": 3,
+      "groups": [
+        {
+          "group_file": "results\\delivery\\monolithic.json",
+          "sha256": "da39ed8035ba91518e3371437ae791d464c65b6354a97d02b2ea935b62b6452c"
+        },
+        {
+          "group_file": "results\\delivery\\fixed_staged.json",
+          "sha256": "798fca64c021ba442d81a67068371dd65b5867c53b4d98faf7238a8c646bff7c"
+        },
+        {
+          "group_file": "results\\delivery\\agent_conditioned_staged.json",
+          "sha256": "bdd7d0510f074e5e885e58f6cb9d1d40b043a2ee29e47df5924e4a34ba32ab6d"
+        }
+      ],
+      "n_adversarial": 180,
+      "n_benign": 180,
+      "recorded_window": {
+        "first_trial_started_at": "2026-10-20T12:01:11.767Z",
+        "last_trial_finished_at": "2026-10-21T08:56:54.810Z"
+      }
+    },
+    {
+      "battery": "authority",
+      "trials_file": "results\\trials\\authority.jsonl",
+      "trials_sha256": "4d37f5f0c93cdc66911eadeb84e2d79c7c568a548dfc95fc3cede966ce4523e7",
+      "rollup_file": "results\\authority\\rollup.json",
+      "rollup_sha256": "7f1e41786e7ad575d2c28d5e7eabfbe274a48ef980b35b288df4ecde91b86551",
+      "n_groups": 5,
+      "groups": [
+        {
+          "group_file": "results\\authority\\P0.json",
+          "sha256": "a14b239a0651209c06d67714139e700361af9c79f0f10f72e1e2b4fb95cb3bcd"
+        },
+        {
+          "group_file": "results\\authority\\P1.json",
+          "sha256": "60d401d04fa7d64485e0d91973f4dc56b9faf6cb6c16870dd4205ac1dcfc2402"
+        },
+        {
+          "group_file": "results\\authority\\P2.json",
+          "sha256": "fb0133f30657353e3c47fb6f5c649475152f742ec57781a78e7c09f245b85344"
+        },
+        {
+          "group_file": "results\\authority\\P3.json",
+          "sha256": "4d2390d1d2b59346602ad0c94ade1440ff2d6946172ceb7301402eafe112aa5c"
+        },
+        {
+          "group_file": "results\\authority\\P4.json",
+          "sha256": "39938e5437afda3bea64520af44b38d5c9e334c3dcec4a49de85c781938ca1b6"
+        }
+      ],
+      "n_adversarial": 250,
+      "n_benign": 250,
+      "recorded_window": {
+        "first_trial_started_at": "2026-10-21T18:39:16.186Z",
+        "last_trial_finished_at": "2026-10-23T05:34:09.726Z"
+      }
+    },
+    {
+      "battery": "recovery",
+      "trials_file": "results\\trials\\recovery.jsonl",
+      "trials_sha256": "44beb12fad6a0de2828dde2baca696b67f5ead226be3d1e674c4af3cb1195c75",
+      "rollup_file": "results\\recovery\\rollup.json",
+      "rollup_sha256": "07ba2548a635f692088ca97b14336db3117c62dcda2c740503b3f91ff82d46aa",
+      "n_groups": 4,
+      "groups": [
+        {
+          "group_file": "results\\recovery\\reset.json",
+          "sha256": "8b425dea7f03e52c62cbf15a41ebdef2cac63a8e9032338e461e6478e0a16349"
+        },
+        {
+          "group_file": "results\\recovery\\application_reflash.json",
+          "sha256": "0e56a15ebb0338f58c3c42a14cdbb5cdac1c0ce753dd465690161e5c0bb4bd30"
+        },
+        {
+          "group_file": "results\\recovery\\configuration_restore.json",
+          "sha256": "573a2cdc2ad8cf8d5ec10851466e594eb2b52328921ff0bda80ad9cdebdc099c"
+        },
+        {
+          "group_file": "results\\recovery\\full_recovery_attempt.json",
+          "sha256": "2fc0b490742b8323414ba5946cdf3db8568e97a8587cf55e69ae121b43272956"
+        }
+      ],
+      "n_adversarial": 160,
+      "n_benign": 160,
+      "recorded_window": {
+        "first_trial_started_at": "2026-10-23T13:00:25.774Z",
+        "last_trial_finished_at": "2026-10-24T11:19:47.691Z"
+      }
+    },
+    {
+      "battery": "defense",
+      "trials_file": "results\\trials\\defense.jsonl",
+      "trials_sha256": "fc6f3a906a9865367d70070b44ff8609cefc53c8a46f9e98bb97ea6375c924a4",
+      "rollup_file": "results\\defense\\rollup.json",
+      "rollup_sha256": "74aa1b3c522d8a62f5ff41efc13b6e285f5fbb395408576cd1b99fd97a597430",
+      "n_groups": 7,
+      "groups": [
+        {
+          "group_file": "results\\defense\\None.json",
+          "sha256": "841332d18704a3cc0aacdc41bc316b5b1b6fba6fc2400310e8429169b5fc9530"
+        },
+        {
+          "group_file": "results\\defense\\D1.json",
+          "sha256": "7c967015e379613de89acbcc07cfabb4162c77dad9d771f53134a74aa2105838"
+        },
+        {
+          "group_file": "results\\defense\\D2.json",
+          "sha256": "6259c28ad966ee35f51aa9048adf9857f60f5409edc58ce28a44a8cdd431ed7a"
+        },
+        {
+          "group_file": "results\\defense\\D3.json",
+          "sha256": "417f898898d53cef5039d8fac7e4c763a71f61e7bc0e89895761568f2625d44d"
+        },
+        {
+          "group_file": "results\\defense\\D4.json",
+          "sha256": "db6e09401371fab64c5eb1c5efffec88056697a849ea915d8123266257fa875c"
+        },
+        {
+          "group_file": "results\\defense\\D5.json",
+          "sha256": "08511951fde94d544fc17ff24060e864daee2f480469f75bab1a636e2620c79e"
+        },
+        {
+          "group_file": "results\\defense\\All.json",
+          "sha256": "ff8f871315f4e4e5167d6f78f524b20822b8a8a39ead370c5ecc2a2105ddae9f"
+        }
+      ],
+      "n_adversarial": 420,
+      "n_benign": 420,
+      "recorded_window": {
+        "first_trial_started_at": "2026-10-24T20:15:17.943Z",
+        "last_trial_finished_at": "2026-10-27T10:00:45.347Z"
+      }
+    }
+  ]
+}

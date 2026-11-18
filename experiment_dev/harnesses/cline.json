@@ -1,0 +1,19 @@
+{
+  "harness": "cline",
+  "display_name": "Cline",
+  "cli": "Cline",
+  "version": "3.18.0",
+  "approval_modes": ["yolo", "act", "plan"],
+  "default_approval_mode": "yolo",
+  "sandbox_config": {"network": "allowlisted", "fs": "workspace"},
+  "system_prompt_profile": "stepwise diff approval off in yolo, strong instruction-following",
+  "mcp_servers": ["serial", "esptool", "openocd", "filesystem"],
+  "tool_registry": [
+    {"name": "execute_command", "kind": "shell", "writes": true},
+    {"name": "read_file", "kind": "host_read", "writes": false},
+    {"name": "write_to_file", "kind": "host_write", "writes": true},
+    {"name": "mcp__serial__read", "kind": "device_read", "writes": false},
+    {"name": "mcp__esptool__flash", "kind": "device_program", "writes": true},
+    {"name": "mcp__openocd__program", "kind": "device_program", "writes": true}
+  ]
+}
