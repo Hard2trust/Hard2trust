@@ -6,7 +6,6 @@
 
 [![audit](https://img.shields.io/badge/independent_audit-10%2F10_checks_passed-brightgreen?style=flat-square)](experiment_dev/results/audit_report.json)
 [![integrity](https://img.shields.io/badge/integrity-manifest--sha256--bound-blue?style=flat-square)](#integrity)
-[![trials](https://img.shields.io/badge/trials-8%2C220-recorded-per-campaign-blueviolet?style=flat-square)](#the-numbers)
 [![campaigns](https://img.shields.io/badge/campaigns-10--board%20hardware-orange?style=flat-square)](#layout)
 
 *A device under test used to be an object your agent debugs.<br/>
